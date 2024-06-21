@@ -1,0 +1,1121 @@
+/* YourComponent.css */
+
+.slider-container {
+  position: relative;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.left {
+  top: 343px;
+  left: 10px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.right {
+  top: 342px;
+  right: 10px;
+  font-size: 2rem;
+  color:#fff
+}
+
+.outside-note {
+  position: absolute;
+  top: 10px;
+  font-size: 14px;
+}
+
+.left.outside-note {
+  left: 10px;
+}
+
+.right.outside-note {
+  right: 10px;
+}
+
+
+.Secondcontainer{
+  margin-top: 2rem;
+  display: flex;
+  gap: 4rem;
+  padding: 0 4rem;
+  
+}
+.sheranvideo{
+  width: 40rem;
+  height: 22rem;
+  border-radius: 5px;
+}
+/* .secondsubcontainer2{
+  margin-top: 4rem;
+} */
+.training{
+  /* text-align: center; */
+  font-size: 1.2rem;
+  color: orange;
+}
+.HomeFirstLearning{
+  margin-top:0.5rem ;
+  font-size: 3rem;
+}
+.braomskills{
+  font-size: 1.2rem;
+}
+.more{
+  margin-top: 0.5rem;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  background-color: orange;
+  font-size: 1.2rem;
+}
+.ticksrc{
+  width: 1rem;
+  height: 1rem;
+}
+.brainysrc{
+  width: 37rem;
+  height: 28rem;
+}
+.thirdcontainer{
+  display: flex;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.skills2{
+  margin-top: 1rem;
+}
+.sudysolution{
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  
+ 
+}
+.Homesl1{
+margin-top: 1rem;
+}
+.FourthContainer{
+  padding: 0 2rem;
+  margin-top: 4rem;
+  background-color: blue;
+  color: #fff;
+  padding: 5rem 0rem;
+}
+.cv{
+  text-align: center;
+  font-size: 3rem;
+}
+.concept{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.videoInfromation{
+  display: flex;
+}  
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.activeButton {
+  color: #fff; /* You can customize the text color for the active button */
+  /* border: none;
+  background: none;
+  font-size: 1.2rem;
+  font-weight: 600; */
+}
+.ac-btn{
+  color: #fff; /* You can customize the text color for the active button */
+  border: none;
+ background-color: pink;
+ height: auto;
+ width: 20rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.ac-btn:hover{
+  background-color: black;
+  color: white;
+  border-radius: 0.4rem;
+  padding: 1rem;
+
+}
+.videoInformation{
+  display: flex;
+  gap: 10rem;
+  padding: 0 5rem;
+  margin-top: 2rem;
+}
+.videoButtons{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+}
+#vdContainer1{
+  width: 25rem;
+  height: 4rem;
+  font-size: 1.1rem;
+
+
+}
+#dContainer2{
+  width: 25rem;
+  height: 4rem;
+  font-size: 1.1rem;
+}
+#Container3{
+  width: 25rem;
+  height: 4rem;
+  font-size: 1.1rem;
+}
+#dContainer4{
+  width: 25rem;
+  height: 4rem;
+  font-size: 1.1rem;
+}
+#dContainer5{
+  width: 25rem;
+  height: 4rem;
+  font-size: 1.1rem;
+}
+#dContainer6{
+  width: 25rem;
+  height: 4rem;
+  font-size: 1.1rem;
+}
+#vdContainer1:hover{
+cursor: pointer;
+}
+#dContainer2:hover{
+  cursor: pointer;
+  }
+  #Container3:hover{
+    cursor: pointer;
+
+  }
+  #dContainer4:hover{
+    cursor: pointer;
+
+  }
+  #dContainer5:hover{
+    cursor: pointer;
+
+  }
+  #dContainer6:hover{
+    cursor: pointer;
+
+  }
+.videoContainer{
+  margin-top: 2rem;
+}
+#vdoContainer1{
+  width: 40rem;
+  height: 20rem;
+}
+.imgsrc3{
+  width: 28rem;
+  height: 27rem;
+}
+.fifthContainer{
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+.fifthContainer{
+  display: flex;
+  gap: 7rem;
+}
+.Sscontainer{
+  margin-top: 1rem;
+}
+.Homeintroducrotyoffer {
+  flex-direction: column;
+  display: flex;
+  width: 19rem;
+  height: 5.5rem;
+  margin-top: 1rem;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  display: none;
+}
+.bombsrc{
+  display: none;
+}
+.orangeContainer{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.4rem;
+  
+}
+.blueC{
+  background-color: blue;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+.cupancode{
+  margin-top: -2.2rem;
+  margin-left: 9.2rem;
+}
+.joy{
+  border: 1px solid orange;
+  width: 4rem;
+  height:1.5rem ;
+  margin-left: 11rem;
+  text-align: center;
+ 
+}
+.scbuttons{
+  margin: auto;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.slidebarbutton{
+  margin-top: 5rem;
+  background-color: grey;
+  text-align: center;
+}
+
+.scbuttons{
+  margin-top: 2rem;
+
+}
+.btn3{
+  height: 3rem;
+  width: 7rem;
+  border-radius: 15px;
+}
+.white{
+  color: #ffffff;
+}
+.orangeContainer{
+  /* margin: auto; */
+  width: 14rem;
+  height: 3rem;
+  background-color: orange;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+
+
+}
+/* .whitebtn{
+  width: 4rem;
+  height: 1rem;
+  background:#ffffff;
+  margin-top: 1rem;
+} */
+.PopularCourses{
+  margin-top: 2rem;
+  text-align: center;
+  background-color: gainsboro;
+  height: auto;
+  padding: 2rem;
+  width: 100%;
+}
+.PopularCourses h1{
+  margin-bottom: 3rem;
+}
+.bwVideos{
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueCalendar{
+      margin: auto;
+     height: 5rem;
+     width: 67rem;
+     background-color: rgb(10, 10, 231);
+     margin-top: 1rem;
+     border-radius: 15px;
+     display: flex;
+     align-items: center;
+}
+.Footer{
+  background-color: gray;
+}
+.Branywoodsrc{
+  width: 12rem;
+  height: 4rem;
+}
+.footerpage{
+  color: white;
+  padding: 0 2rem;
+}
+.btn4{
+  width: 14rem;
+  height: 3rem;
+  background-color: orange;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
+.btnblue{
+  margin-top: -0.5rem
+}
+
+.txtdata {
+    margin-top: -2rem;
+    background-color: rgb(10, 10, 24);
+    color: #494646;
+}
+
+@media screen and (min-width: 250px) and (max-width: 499px) {
+  .brainysrc{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13rem !important;
+  }
+  .Secondcontainer {
+    flex-direction: column;
+    padding: 0rem 1rem;
+  }
+  .secondsubcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+  .Secondsubcontainer1 iframe{
+    height: auto !important;
+    width: 100% !important;
+  }
+  
+  .left{
+    top: 289px;
+  }
+  .right{
+    top: 289px;
+  }
+  
+  .sheranvideo{
+    margin: auto !important;
+    width: 15rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .HomeFirstLearning {
+    font-size: 1.5rem;
+}
+.thirdcontainer{
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.brainysrc {
+  margin-top: 0.5rem;
+  width: 100% !important;
+  height:auto !important;
+}
+.src4{
+  margin-left: 0rem;
+}
+.sl5{
+  margin-left: 2rem;
+}
+.videoContainer{
+  padding: 0rem 1rem !important;
+}
+/* .fourthContainer{
+  flex-direction: column-reverse;
+} */
+.videoInformation{
+ flex-direction: column-reverse;
+ gap: 3rem;
+ padding: 0rem 0rem ;
+}
+.videoButtons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+ 
+}
+#vdoContainer1{
+  width: 100%;
+  height: 10rem;
+}
+.ac-btn{
+  width: 15rem;
+  height: 22rem;
+}
+.braomskills {
+  text-align: center;
+}
+.more{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+#vdContainer1 {
+  width: 14rem;
+  height: 4rem;
+  margin-top: -3rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+
+#dContainer2 {
+  width: 14rem;
+  height: 4rem;
+  border-radius: 15px;
+  padding: 0rem 1rem;
+  /* font-size: 1.1rem; */
+}
+#Container3 {
+  width: 14rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+#dContainer4 {
+  width: 14rem;
+  height: 4rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+#dContainer5 {
+  width: 14rem;
+  height: 4rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+#dContainer6 {
+  width: 14rem;
+  height: 4rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+.fifthContainer{
+  flex-direction: column;
+  padding: 0rem;
+}
+.imgsrc3 {
+  padding: 0rem 1rem;
+  margin: auto;
+  width: 100%;
+  height:auto;
+  margin-top: -2rem !important;
+  display: flex;
+}
+.sr{
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 0rem;
+  
+}
+.white {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.Homeintroducrotyoffer{
+  display: none;
+  width: 12rem;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  display: none;
+ 
+}
+.joy{
+  margin-left: 0rem;
+  /* align-items: center; */
+  text-align: center;
+}
+.bombsrc{
+  display: none;
+}
+.orangeContainer{
+  display: none;
+}
+
+.main-calender{
+  padding: 0rem 1rem;
+}
+.blueCalendar{
+  margin: auto;
+    height: auto;
+    width: 100%;
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.footerpage {
+  text-align: center;
+  padding: 0rem 0.5rem;
+  font-size: 15px;
+
+}
+.btn4 {
+  width: 10rem;
+}
+.Homesl1 {
+  margin-bottom: 1rem;
+  padding: 0rem 1rem;
+  text-align: center;
+  gap: 1rem !important;
+  margin-left: 0rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sl{
+  display: flex  !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important ;
+}
+.training {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0rem 1rem;
+}
+.HomeFirstLearning {
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.FirstLearning{
+  text-align: center;
+  padding: 0rem 10px;
+  width: 97vw;
+}
+.Sscontainer {
+  margin-top: -6rem;
+}
+.FourthContainer{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.concept{
+  padding: 0rem 0.5rem;
+  width: 100vw;
+  font-size: 1rem;
+  margin-bottom: -2rem;
+}
+
+
+.cv{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.FourthContainer{
+  padding: 1rem 0rem;
+}
+.PopularCourses{
+  display: none;
+}
+.fourthContainer {
+  font-size: 0.9rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.txtdata {
+  margin-top: -4rem;
+  padding: 1rem;
+  font-size: 0.7rem;
+  background-color: rgb(10, 10, 24);
+  color: #ffffff;
+}
+.skills2{
+
+  text-align: center;
+ 
+}
+.sudysolution {
+  padding: 0rem 1rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+}
+
+@media screen and (min-width:499px) and (max-width:769px){
+
+
+  .brainysrc{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13rem !important;
+  }
+  .Secondcontainer {
+    flex-direction: column;
+    padding: 0rem 1rem;
+  }
+  .secondsubcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  .left{
+    top: 300px;
+  }
+  .right{
+    top: 300px;
+  }
+  
+
+  .Secondsubcontainer1 iframe{
+    height: 15rem !important;
+    width: 100% !important;
+  }
+  .sheranvideo{
+    margin: auto !important;
+    width: 26rem !important;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .HomeFirstLearning {
+    font-size: 1.5rem;
+}
+.thirdcontainer{
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.brainysrc {
+  margin-top: 2rem;
+  width: 100%;
+  height: 25rem !important;
+}
+.src4{
+  margin-left: -2rem;
+}
+.sl5{
+  margin-left: 2rem;
+}
+/* .fourthContainer{
+  flex-direction: column-reverse;
+} */
+.videoInformation{
+ flex-direction: column-reverse;
+ gap: 3rem;
+ padding: 0rem 0rem ;
+}
+.videoButtons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+#vdoContainer1{
+  width: 100%  !important;
+  height: 14rem;
+}
+.ac-btn{
+  width: 15rem;
+  height: 22rem;
+}
+.braomskills {
+  text-align: center;
+}
+.more{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+#vdContainer1 {
+  width: 31rem;
+  height: 3.5rem;
+  margin-top: -3rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+
+#dContainer2 {
+  width: 31rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  padding: 0rem 1rem;
+  /* font-size: 1.1rem; */
+}
+#Container3 {
+  width: 31rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+#dContainer4 {
+  width: 31rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+#dContainer5 {
+  width: 31rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+#dContainer6 {
+  width: 31rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  /* font-size: 1.1rem; */
+}
+.fifthContainer{
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.imgsrc3 {
+  margin: auto;
+  width: 100%;
+  height: 25rem;
+  margin-top: -2rem !important;
+}
+.sr{
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 0rem;
+  
+}
+.white {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.Homeintroducrotyoffer{
+  display: none;
+  width: 12rem;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  display: none;
+ 
+}
+.joy{
+  margin-left: 0rem;
+  /* align-items: center; */
+  text-align: center;
+}
+.bombsrc{
+  display: none;
+}
+.orangeContainer{
+  display: none;
+}
+.blueCalendar{
+  margin: auto;
+    height: auto;
+    width: 25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.footerpage {
+  text-align: center;
+  padding: 0rem 0.5rem;
+  font-size: 15px;
+
+}
+.btn4 {
+  width: 10rem;
+}
+.Homesl1 {
+  text-align: center;
+  gap: 0.5rem !important;
+  margin-left: 0rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sl{
+  display: flex  !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important ;
+}
+.training {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.HomeFirstLearning {
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ 
+}
+.Sscontainer {
+  margin-top: -6rem;
+}
+.FourthContainer{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.concept{
+  font-size: 1.3rem;
+  margin-bottom: -2rem;
+  padding: 0rem 0.5rem;
+}
+.cv{
+  font-size: 2rem;
+  text-align: center;
+}
+.FourthContainer{
+  padding: 1rem 0rem;
+}
+.PopularCourses{
+  display: none;
+}
+.fourthContainer {
+  font-size: 0.9rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.txtdata {
+  margin-top: -4rem;
+  padding: 1rem;
+  font-size: 0.7rem;
+  background-color: rgb(10, 10, 24);
+  color: #ffffff;
+}
+.skills2{
+ 
+  text-align: center;
+}
+.page1 h1 {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+}
+@media screen and (min-width:769px) and (max-width:1250px){
+  .Secondcontainer {
+    flex-direction: column;
+    padding: 0rem 1rem;
+  }
+  .secondsubcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  .thirdcontainer{
+    flex-direction: column;
+  }
+  .videoInformation {
+    flex-direction: column-reverse;
+  }
+  .fifthContainer{
+    flex-direction: column;
+  }
+  .blueCalendar{
+    width: auto;
+    padding: 1rem;
+  }
+  .sheranvideo {
+    display: flex;
+    margin: auto;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .training {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.HomeFirstLearning {
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.more{
+  margin: auto;
+  display: flex;
+  margin-top: 0.5rem;
+}
+.brainysrc {
+  display: flex;
+  margin: auto;
+  width: 38rem;
+  height: 30rem;
+}
+.concept {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.45rem;
+  margin-top: 0.5rem;
+}
+/* .concept {
+  margin: auto !important;
+  text-align: center;
+  display: flex;
+  justify-content: center !important;
+  font-size: 1.45rem;
+  margin-top: 0.5rem;
+  align-items: center !important;
+} */
+.videoButtons {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: -7rem;
+}
+.videoInformation {
+  gap: 6rem;
+}
+#vdContainer1 {
+  border-radius: 1rem;
+  cursor: pointer;
+}
+#dContainer2 {
+  border-radius: 1rem;
+  cursor: pointer;
+
+  
+}
+#Container3{
+  border-radius: 1rem;
+  cursor: pointer;;
+}
+#dContainer4{
+  border-radius: 1rem;
+  cursor: pointer;
+}
+#dContainer5{
+  border-radius: 1rem;
+  cursor: pointer;
+}
+#dContainer6{
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.FourthContainer{
+  padding: 1rem 0rem;
+}
+.imgsrc3 {
+  display: flex;
+  margin: auto;
+  width: 37rem;
+  height: 27rem;
+}
+.Homeintroducrotyoffer {
+  margin: auto;
+  margin-top: 1rem;
+  display: none;
+}
+.orangeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 3rem;
+  background-color: orange;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+#vdoContainer1{
+ margin: auto;
+border-radius: 1rem;
+}
+
+}
+
+/* @media screen and (min-width:1048px) and (max-width:1300px){
+
+  #vdoContainer1{
+    width: 30rem;
+    height: 20rem;
+  }
+  
+.videoInformation {
+  gap: 5rem;
+}
+
+  
+} */
+
+
+
+

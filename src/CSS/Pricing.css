@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pricing-container1{
+    margin-top: 4.2rem;
+    height: 25rem;
+    width: 100%;
+    background-image: url("../Components//Images//back2.jpg");
+    background-position-y: 0rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.price-head{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.price-info{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.member-container{
+    height: auto;
+    width: 100%;
+    background-color: azure;
+    padding: 2rem;
+}
+.member-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+.member-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    gap: 1rem;
+}
+.member-box{
+    height: auto;
+    width: auto;
+    background-color:white;
+    box-shadow: 0px 0px 5px 0px rgb(187, 180, 180);
+    border-radius: 0.5rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.rg-fee{
+    font-size: 1rem;
+    color: rgb(78, 76, 76);
+    font-weight: 600;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:whitesmoke;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+.member-rs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.member-tax{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+   padding: 0rem 1rem;
+}
+.member-rs{
+    padding-top: 2rem;
+}
+.tax{
+    font-size: 1rem;
+    color: rgb(112, 107, 107);
+}
+.member-info{
+    
+    font-size: 1rem;
+    color: rgb(63, 61, 61);
+}
+.view{
+    height: auto;
+    width: auto;
+    padding: 0.3rem 2rem;
+    background-color: rgb(234, 135, 31);
+    border-radius: 30rem;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.faq-container{
+    margin-top: 5rem;
+    height: auto;
+    margin-bottom: 3rem;
+    width:auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq-head{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+@media (min-width :769px) and (max-width:1023px) {
+    .pricing-container1{
+        height: 20rem;
+    }
+    .price-info{
+        text-align: center;
+    }
+    .member-boxes{
+        flex-direction:row;
+    }
+    .faq-container{
+        margin-top: 2rem;
+    }
+    .faq-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .faq-item{
+        margin: 0.5rem 0rem !important;
+    }
+}
+@media (min-width :499px) and (max-width:769px) {
+    .pricing-container1{
+        margin-top:1.5rem;
+        height: 20rem;
+        background-position-y: 2rem;
+    }
+    .price-info{
+        padding: 0rem 1rem;
+        width: 100vw;
+        text-align: center;
+    }
+    .member-boxes{
+        flex-direction: column;
+    }
+
+    .member-info { 
+        font-size: 1.6rem;
+        color: rgb(63, 61, 61);
+    }
+    
+    .member-head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+    }
+
+    .member-box{
+        width: 100% !important;
+    }
+    .faq-container{
+        margin-top: 2rem;
+    }
+    .faq-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .faq-item{
+        margin: 0.5rem 0rem !important;
+    }
+
+    
+}
+@media (min-width :349px) and (max-width:499px) {
+    .pricing-container1{
+        padding: 0rem 1rem;
+        margin-top: 3.5rem;
+        height: 20rem;
+        background-position-x: -13rem;
+    }
+    .price-info{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .member-boxes{
+        flex-direction: column;
+    }
+
+    .member-info { 
+        font-size: 1.2rem;
+        color: rgb(63, 61, 61);
+    }
+    .member-box{
+        margin-top: -1rem ;
+        margin-bottom: 1rem;
+    }
+
+    .member-box{
+        width: 100% !important;
+    }
+    .member-head{
+        font-size: 1.7rem;
+        padding-top: 2rem;
+    }
+    .faq-container{
+        margin-top: 2rem;
+    }
+    .faq-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .faq-item{
+        margin: 0.5rem 0.5rem !important;
+    }
+
+    .member-container{
+        padding: 0rem;
+    }
+    .member-info{
+        width:100% !important;
+    }
+    
+}
+@media (min-width :250px) and (max-width:349px) {
+    .pricing-container1{
+        padding: 0rem 1rem;
+        margin-top: 3.5rem;
+        height: 20rem;
+        background-position-x: -13rem;
+    }
+    
+    .member-container{
+        padding: 0rem;
+        
+    }
+    .member-info{
+        width: 64%;
+    }
+    .member-head{
+        width: 100vw;
+        padding: 0rem 1rem;
+        font-size: 1.3rem;
+        padding-top: 1.5rem;
+    }
+    .question{
+        font-size: 1rem;
+    }
+    .answer{
+        font-size: 14px;
+    }
+    .price-info{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .member-boxes{
+        flex-direction: column;
+    }
+    .faq-container{
+        margin-top: -1rem;
+    }
+    .member-box{
+        width: 100% !important;
+        margin-top: -1rem ;
+        margin-bottom: 1rem;
+    }
+    .member-tax{
+        padding: 0rem 0rem;
+    }
+    .faq-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .faq-item{
+        margin: 0.5rem 0.5rem !important;
+    }
+
+    
+}

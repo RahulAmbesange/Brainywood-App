@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+.fmdata {
+    margin: 0.5rem;
+    padding: 0 1rem;
+    width: 21rem;
+    height: 2.3rem;
+    background: rgb(240, 240, 146);
+}
+.formdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    margin-left: 2rem;
+    width:30%;
+    border-radius: 1.5rem;
+    padding:  1rem;
+    /* margin-top: 1rem; */
+   
+}
+.formdata span{
+    margin-left: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: bolder;
+}
+.containerF{
+    display: flex;
+    background-color: rgb(53, 53, 170) !important;
+    height: auto;
+    gap: 10rem;
+    padding: 5rem 0rem;
+}
+.OnlineLearning{
+    margin-top: 10rem;
+}
+.OnlineLearning h1{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+.newcorses{
+    color: orange !important;
+    margin-top: 1.2rem;
+}
+.OnlineLearning h2{
+    color: #ffffff;
+    margin-top: 1rem;
+    font-size: 2rem;
+
+}
+.firstcontainers{
+    display: flex;
+    gap: 2.5rem !important;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.captchasrc{
+    width: 2.5rem;
+    height: 2.5rem;
+   
+}
+.check{
+    width: 2rem;
+    height: 2rem;
+}
+.Irb{
+    margin-left: 0.5rem;
+    font-size: 1rem
+    
+}
+.robot{
+    width: 15rem;
+    height: 3.5rem;
+    background-color: #ffffff;
+    border: 2px solid black;
+    display: flex;
+    padding: 0 0.5rem;
+    align-items: center;
+}
+.formdata span{
+    color: #ffffff;
+}
+.btn1{
+    color: orange;
+    width: 10rem;
+    height: 3rem;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.lst {
+    margin: 0 0.9rem;
+}
+.check {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.UFormdata{
+    background-color: red;
+   display: flex;
+   justify-content: center;
+   border: 2px solid black;
+  
+}
+
+
+
+  @media  (max-width: 479px) {
+    .containerF {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(53, 53, 170);
+        height: auto !important;
+        gap: 0rem !important;
+        padding: 2rem 0rem !important;
+        padding-top: 4rem !important;
+    }
+    .fmdata {
+        margin: 0rem;
+        padding: 0 1rem;
+        width: 80%;
+        height: 2.3rem;
+        background: rgb(240, 240, 146);
+        border-radius: 0.4rem;
+    }
+    .Irb {
+        margin-left: 0.5rem;
+        font-size: 15px;
+    }
+    .captchasrc {
+        margin-left: 3rem;
+    }
+
+  
+    .formdata span {
+        color: #ffffff;
+        text-align: center;
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+    form{
+        margin: auto;
+    }
+    .robot{
+        width: 80%;
+        border-radius: 0.4rem;
+        margin-top: 1rem
+    }
+    .btn1 {
+        color: orange;
+        width: 9rem;
+        height: 2.5rem;
+        margin:1rem 0rem;
+        border: none;
+        padding: 0.5rem ;
+
+    }
+    .formdata {
+        margin: auto !important;
+        align-items: center !important;
+        justify-content: center !important;
+        display: flex;
+        flex-direction: column;
+        background-color: orange;
+        width: 16rem;
+        height: auto;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        margin-top: 1.5rem !important;
+    }
+    
+    .fst2{
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+    .captchasrc {
+        margin-left: 0rem !important;
+    }
+    
+    .containerF {
+        display: flex;
+        background-color: rgb(53, 53, 170);
+        height: auto;
+        gap: 10rem;
+    }
+
+    .OnlineLearning h1 {
+        padding: 0rem 1rem;
+        margin-top: 1rem;
+        color: #ffffff;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 19px;
+    }
+    .newcorses {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .OnlineLearning h2 {
+        text-align: center;
+        color: #ffffff;
+        margin-top: 1rem;
+        font-size: 17px;
+    }
+   
+    .firstmaincontainer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstcontainers {
+        display: flex;
+        gap: 0rem !important;
+        align-items: start !important;
+        text-align: center;
+        justify-content: start !important;
+        margin-top: 1rem !important;
+       flex-direction: column;
+       padding: 0rem 0.5rem;
+       font-size: 18px !important;
+    }
+    
+  
+    .lst {
+        margin: 0 ;
+    }
+    .OnlineLearning{
+        margin-top: 0rem;
+    }
+   
+   
+  }
+  
+ @media (min-width: 480px) and (max-width: 768px) {
+
+    .containerF {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(53, 53, 170);
+        height: auto !important;
+        gap: 0rem !important;
+    }
+    .fmdata {
+        margin: 0.5rem;
+        padding: 0 1rem;
+        width: 100%;
+        height: 2.3rem;
+        background: rgb(240, 240, 146);
+    }
+    .fmdata2 {
+        width: 100% !important;
+       
+    }
+    .robot {
+        width: 12rem;
+        margin-top: 1rem;
+    }
+    
+    .formdata span {
+        color: #ffffff;
+        text-align: center;
+        margin-left: 0;
+        font-size: 1.4rem;
+    }
+    .robot{
+        width: 12rem;
+    }
+    .btn1 {
+        color: orange;
+        width: 11rem;
+        height: 2.5rem;
+        font-size: 1.1rem;
+    }
+    .formdata {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: orange;
+        width: 22rem;
+        height: auto;
+        border-radius: 1rem;
+        padding: 3rem;
+        margin-top: 0rem;
+    }
+    
+    .containerF {
+        display: flex;
+        background-color: rgb(53, 53, 170);
+        height: auto;
+        gap: 10rem;
+    }
+
+    .OnlineLearning h1 {
+        margin-top: -5rem;
+        color: #ffffff;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .newcorses {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .OnlineLearning h2 {
+        text-align: center;
+        color: #ffffff;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+    /* .firstcontainer {
+        padding: 0 2rem;
+        display: flex;
+        margin-top: 0rem;
+        gap: 0rem;
+        color: #ffffff;
+        flex-direction: column;
+    } */
+    .firstmaincontainer{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .firstcontainers{
+        flex-direction: column;
+        gap: 0rem !important;
+        padding: 0rem 1.5rem;
+        font-size: 1.3rem;
+        margin-left: 3rem;
+    }
+    .lst{
+        margin: 0;
+    }
+    .fst2{
+        margin-right: 1rem;
+    }
+}
+  
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .fmdata {
+        margin: 0.5rem;
+        padding: 0 1rem;
+        width: 100%;
+        height: 2.3rem;
+        background: rgb(240, 240, 146);
+    }
+    /* .fs3{
+        margin-left: -1rem;
+    } */
+
+    .containerF {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(53, 53, 170);
+        height: auto !important;
+        gap: 0rem !important;
+        padding: 0rem 15rem;
+    }
+    .formdata {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: orange;
+        width: 100% !important;
+        height: auto;
+        border-radius: 1rem;
+        padding: 3rem;
+        margin-top: 5rem;
+    }
+
+    .formdata span {
+        color: #ffffff;
+        text-align: center;
+        margin-left: 0;
+        font-size: 1.4rem;
+    }
+    .robot{
+        width: 12rem;
+        margin-top: 1.2rem;
+    }
+    .btn1 {
+        color: orange;
+        width: 11rem;
+        height: 2.5rem;
+        font-size: 1.1rem;
+    }
+    .formdata {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: orange;
+        width: 22rem;
+        height: auto;
+        border-radius: 1rem;
+        padding: 3rem;
+        margin-top: 5rem;
+       
+        
+    }
+    
+    .containerF {
+        display: flex;
+        background-color: rgb(53, 53, 170);
+        height: auto;
+        gap: 10rem;
+    }
+
+    .OnlineLearning h1 {
+        margin-top: -5rem;
+        color: #ffffff;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .newcorses {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .OnlineLearning h2 {
+        text-align: center;
+        color: #ffffff;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+    /* .firstcontainer {
+        padding: 0 2rem;
+        display: flex;
+        margin-top: 0rem;
+        gap: 0rem;
+        color: #ffffff;
+        flex-direction: column;
+    } */
+ 
+    .firstcontainers {
+        display: flex;
+        gap: 2.5rem !important;
+        margin-top: 1rem;
+        color: #ffffff;
+        font-size: 20px;
+        width: 50vw;
+        margin: auto;
+        padding: 1rem 0rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstcontainers span{
+        font-size: 15px;
+    }
+  }
+  
+ 

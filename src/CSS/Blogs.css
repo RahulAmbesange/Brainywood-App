@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blog-container{
+    margin-top: 4.3rem;
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('../Components//Images/back3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2.5rem;
+}
+.read-more{
+    height: auto;
+    margin: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.read-boxes{
+    height: 25rem;
+    width: auto;
+    padding: 0.5rem;
+    background-color:white;
+    box-shadow: 0px 0px 10px 0px rgb(137, 134, 134);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    padding-bottom: 1rem;
+}
+.lg{
+   
+    width: 20rem;
+}
+
+.lg2{
+    height: 9rem;
+        width: 20rem;
+}
+.more-info{
+    font-size: 18px;
+    width: 25vw;
+    color: rgb(55, 54, 54);
+}
+.more-info2{
+    width: 25vw;
+    font-size: 1.1rem;
+    color: rgb(69, 68, 68);
+}
+.admin-date{
+    display: flex;
+    gap: 8rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+.read{
+    width: 100%;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    height: auto;
+}
+.brainyone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+.br1{
+    width: 20rem;
+}
+.br-head{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+.br-info{
+    height: auto;
+    width: auto;
+    margin: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 0px rgb(126, 124, 124);
+}
+.br-info1{
+    width: 100%;
+}
+.ln{
+    text-decoration: none;
+    color: white;
+}
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+    width: 80%;
+}
+.read-more{
+    display: flex;
+    padding: 0rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+@media (min-width :769px) and (max-width:1024px) {
+    .read-more{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem !important; 
+        margin: 0rem !important;
+        margin-top: 3rem !important;
+        padding: 0rem 2rem 2rem 2rem;
+        gap: 1.5rem;
+    }
+    .read-boxes{
+        height: auto !important;
+        width: 100% !important;
+    }
+    .br1{
+        width: 16rem;
+    }
+
+    .more-info{
+        width: 20vw;
+        font-size: 15px;
+    }
+
+    .lg{
+       
+        width: 100% !important;
+    }
+
+    .admin-date{
+        gap: 5rem ;
+    }
+
+    .lg2{
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .more-info2{
+        width: 20vw;
+        font-size: 16px;
+    }
+
+    .br-head{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .br-info{
+        margin: 0.5rem;
+    }
+
+  
+
+}
+@media (min-width :499px) and (max-width:769px) {
+    .blog-container{
+        margin-top: 3.5rem;
+        height: 20rem;
+    }
+    .read-more{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem !important; 
+        margin: 0rem !important;
+        margin-top: 2rem !important;
+        padding: 0rem 1rem 2rem;
+        gap: 2rem;
+    }
+    .read-boxes{
+        height: auto;
+        width: 100%;
+    }
+    .br1{
+        width: 16rem;
+    }
+    .br-head{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .lg2{
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .more-info{
+        width: 85vw;
+        font-size: 20px;
+    }
+
+    .more-info2{
+        width: 80vw;
+        font-size: 22px;
+    }
+
+    .lg{
+        padding: 0rem 2rem;
+        width: 100% !important;
+    }
+    .br-info{
+        margin: 0.5rem;
+    }
+
+    .admin-date{
+        gap: 3rem;
+    }
+
+  
+
+
+}
+@media (min-width :350px) and (max-width:499px) {
+    .blog-container{
+        margin-top: 3.5rem;
+        height: 18rem;
+    }
+    .read-more{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem !important; 
+        margin: 0rem !important;
+        margin-top: 2rem !important;
+        padding: 0rem 1rem  1.5rem;
+        gap: 1.5rem;
+        
+    }
+    .read-boxes{
+        height: auto;
+        width:100% !important;
+    }
+
+    .admin-date{
+        gap: 2rem;
+    }
+
+    .more-info{
+        width: 90vw;
+        font-size: 16px;
+    }
+
+    .more-info2{
+        width: 80vw;
+        font-size: 16px;
+    }
+    .br1{
+        width: 16rem;
+    }
+    .lg2{
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .lg{
+        padding: 0rem 1rem;
+        width: 100% !important;
+    }
+    .br-head{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .br-info{
+        margin: 0.5rem;
+    }
+
+
+}
+@media (min-width :270px) and (max-width:349px) {
+    .blog-container{
+        margin-top: 3.5rem;
+        height: 12rem;
+    }
+    .read-more{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem !important; 
+        margin: 0rem !important;
+        margin-top: 2rem !important;
+        padding: 0rem 1rem 1.5rem;
+        gap: 1rem;
+    }
+    .read-boxes{
+        height: auto;
+        width: 100% !important;
+    }
+    .more-info{
+        width: 80vw;
+        font-size: 15px;
+    }
+
+
+    .lg2{
+        height: auto !important;
+        width: 100% !important;
+    }
+    .more-info2{
+        width: 80vw;
+        font-size: 13px;
+    }
+
+   .blog-container b {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .admin b{
+        font-weight:bold;
+        font-size: 0.9rem;
+    }
+    .admin-date{
+        gap: 2.9rem;
+        display: flex;
+    }
+    .lg{
+        padding: 0rem 1rem;
+        width: 100% !important;
+    }
+    .br1{
+        width: 16rem;
+    }
+    .br-head{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .br-info{
+        margin: 0.5rem;
+    }
+
+}

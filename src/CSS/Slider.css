@@ -1,0 +1,89 @@
+/* Slider.css */
+.sl1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .slides1 {
+    width: 20rem; /* Adjust the width as needed */
+    height: 10rem !important;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+  }
+  
+  /* Apply styles to the Flickity container */
+  .flickity-viewport {
+    overflow: hidden;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  /* Optional: Apply styles to Flickity pagination dots */
+  .flickity-page-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .flickity-page-dots .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .flickity-page-dots .dot.is-selected {
+    background-color: orange;
+    border: 1px solid black;
+  }
+  .flickity-page-dots {
+    display: block !important;
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    padding: 0;
+    margin: 2;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}
+
+  .slider-section{
+    height: auto;
+    width: auto;
+    padding: 5rem;
+    background-color: pink;
+  }
+  .slider-box{
+    margin: 5rem 10rem;
+    height: 20rem;
+    width: 50rem;
+    padding: 2rem;
+    background-color: teal;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5rem 0rem 5rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .info-box{
+    height: 10rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: beige;
+    border-radius: 3rem 0rem 3rem 0rem;
+    border: 1 px solid black;
+  }
+  .inform{
+    width: 100%;
+  }

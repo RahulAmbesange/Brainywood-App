@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.service-container{
+    margin-top: 4.2rem;
+    width: 100%;
+    height: 25rem;
+    background-image: url("../Components//Images/back3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: white;
+}
+.service-c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 2rem;
+    width: 100%;
+    /* background-color: pink; */
+    gap: 0rem;
+}
+.bright-future{
+    height: 28rem;
+    width: auto;
+    padding: 0rem;
+    background-color:white;
+}
+.teachs{
+    font-size: 2.5rem;
+}
+.teach-info{
+    font-size: 1.1rem;
+    width: 60vw;
+}
+.courses-develop{
+    height: 28rem;
+    width: auto;
+    padding: 1rem 0rem;
+    background-color:white;
+}
+.motto{
+    width: 28rem;
+    height: 13rem;
+    border-radius: 1rem;
+}
+.we-teach{
+    flex-direction: column;
+    display: flex;
+}
+.our-motto{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.our-mottos{
+    flex-direction: column;
+    display: flex;
+}
+.our-m{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.moto-1{
+    font-size: 1.1rem;
+    color: rgb(79, 76, 76);
+    margin-bottom: 0.4rem;
+}
+.c-develop{
+    font-size: 2.8rem;
+}
+.develop-list{
+    display: flex;
+    gap: 4rem;
+    margin-top: 1rem
+}
+.courses-list{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.service-c3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+}
+.wide-range{
+    font-size: 2.2rem;
+}
+.all-kind{
+    font-size: 1.2rem;
+}
+.service-range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding:  0rem1rem;
+    /* background-color:aquamarine; */
+    flex-direction: column;
+}
+.range1{
+    height: 13rem;
+    width: 25rem;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.first-range{
+    display: flex;
+    gap: 2rem;
+}
+.audio-range{
+    font-size: 1.1rem;
+}
+.service-c4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-v{
+    width: 100% !important;
+    margin: 1rem 6rem;
+    height: 30rem !important;
+}
+.service-c5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    /* background-color: pink; */
+    flex-direction: column;
+}
+.service-cycle{
+    font-size: 2.8rem;
+}
+.learning-cycle{
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+    /* background-color:aqua; */
+}
+.learn-cycle-info{
+    width: 74vw;
+    font-size: 1rem;
+}
+.l-cycle{
+    font-size: 1.5rem;
+    display: flex;
+}
+.service-gif{
+    height: 28.5rem;
+    width: 40rem;
+    margin: 1rem 0rem;
+}
+.info-c1{
+    height: auto;
+    width: auto;
+    /* background-color: bisque; */
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+}
+.c1-para{
+    width: 60vw;
+    font-size:1rem;
+}
+.Servicelearn-cc{
+    margin-top: 2rem !important;
+    margin-left: 1rem;
+}
+@media (min-width :769px) and (max-width:1024px) {
+    .service-c2{
+        flex-direction: column;
+    }
+    .first-range{
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .service-v{
+        height: 25rem !important;
+    }
+    .l-cycle{
+        flex-direction: column;
+    }
+    .service-cycle{
+        padding: 0rem 1rem;
+        text-align: center;
+    }
+    .c-develop{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }.service-c3{
+        margin-top: -2rem;
+    }
+    .range1{
+        height: 10rem;
+    }
+    .our-mottos{
+        text-align: center;
+    }
+    .teachs{
+        text-align: center;
+    }
+}
+@media (min-width :499px) and (max-width:769px) {
+    .service-container{
+        margin-top: 3.5rem;
+        height: 20rem;
+    }
+    .service-c2{
+        flex-direction: column;
+    }
+    .info-c1{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .first-range{
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .service-v{
+        height: 15rem !important;
+        width: 25rem !important;
+    }
+    .l-cycle{
+        flex-direction: column;
+    }
+    .service-cycle{
+        text-align: center;
+        font-size: 35px;
+        padding: 0rem 1rem;
+    }
+
+  
+    .courses-develop{
+        margin-top: 20rem;
+    }
+    .teach-info {
+        padding: 0rem 1rem;
+        font-size: 1.3rem;
+        width: 100vw;
+    }
+    
+    .mt-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 1rem;
+    }
+
+    .motto {
+        width:100% !important;
+        height:auto !important;
+        border-radius:1rem;
+    }
+    .c-develop{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 33px;
+    }.service-c3{
+        margin-top: 6rem;
+    }
+
+    
+    .service-gif{
+        padding: 0rem 1rem;
+        height:auto !important;
+        width:100% !important;
+        margin: 0rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .courses-list {
+        flex-direction: column;
+        display: flex;
+        gap: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+       flex-direction: column;
+    }
+    .range1{
+        height: 10rem;
+    }
+
+    .service-c4 iframe{
+        border-radius: 1rem;
+        height: 15rem !important;
+        width: 100% !important;
+    }
+    .our-mottos{
+        text-align: center;
+    }
+    .teachs{
+        text-align: center;
+        font-size: 33px;
+        padding-bottom:1rem;
+    }
+
+
+    .our-motto{
+        flex-direction: column;
+    }
+    .learn-cycle-info {
+        padding: 1rem 1rem;
+        margin: auto;
+        display: flex;
+        font-size: 1rem;
+        text-align: center;
+        width:100vw;
+    }
+    .l-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c1-para{
+        padding: 0.5rem 1rem;
+        width:100vw;
+    }
+    .Servicelearn-cc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0rem;
+    }
+}
+@media (min-width :349px) and (max-width:499px) {
+    .service-container{
+       margin-top: 3.5rem;
+        height: 15rem;
+    }
+
+
+    .service-c2{
+        flex-direction: column;
+    }
+    .info-c1{
+        display: flex;
+        gap: 1rem;
+    }
+    .first-range{
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .service-v{
+        height: 15rem !important;
+        width: 25rem !important;
+    }
+    .l-cycle{
+        flex-direction: column;
+    }
+    .service-cycle{
+        text-align: center;
+        font-size: 23px;
+        padding: 0rem 1rem;
+    }
+
+    .mt-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 1rem;
+    }
+    .motto{
+        height:auto;
+        width: 100%;
+    }
+    .c-develop{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 22px;
+    }.service-c3{
+        margin-top: 12rem;
+    }
+    .courses-develop{
+        margin-top: 13rem;
+    }
+    .service-gif{
+        padding: 0rem 1rem;
+        height: auto ;
+        width: 100% !important;
+        margin: 1rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wide-range{
+        font-size: 28px;
+    }
+    .develop-list {
+        display: flex;
+        gap: 0rem;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .range1{
+        height: 10rem;
+        width: 17rem;
+    }
+    .our-mottos{
+        text-align: center;
+    }
+    .teachs{
+        text-align: center;
+        font-size: 24px;
+    }
+    .audio-range{
+        text-align: center;
+    }
+    .our-motto{
+        flex-direction: column;
+    }
+    .learn-cycle-info {
+        padding: 0.5rem 1rem;
+        margin: auto;
+        display: flex;
+        font-size: 1rem;
+        text-align: center;
+        width:100vw;
+    }
+    .l-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c1-para{
+        padding: 0rem 1rem;
+        width:100% !important;
+    }
+    .teach-info{
+        padding: 0rem 1rem;
+        width:100vw;
+        margin: auto;
+        text-align: center;
+    }
+    .learning-cycle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Servicelearn-cc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .courses-list{
+        width: 100vw;
+    }
+
+    .service-c4 iframe{
+        border-radius: 0.5rem;
+        height: auto !important;
+        width: 100% !important;
+       
+    }
+    .c1-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+  
+
+    .info-c1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width :270px) and (max-width:349px) {
+    .bright-future{
+        margin-top: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0rem;
+        flex-direction: column;
+    }
+    .service-container{
+        margin-top: 3.5rem;
+        height: 13rem;
+    }
+
+    .service-c2{
+        flex-direction: column;
+    }
+    .info-c1{
+        display: flex;
+        gap: 1rem;
+    }
+    .first-range{
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .service-v{
+        height: 10rem !important;
+        width: 10rem !important;
+    }
+    .l-cycle{
+        flex-direction: column;
+    }
+    .service-cycle{
+        padding: 0rem 1rem;
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .mt-img{
+        padding: 0rem 1rem;
+    }
+    .motto{
+      
+        height:auto !important;
+        width: 100%;
+    }
+    .c-develop{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 19px;
+    }.service-c3{
+        margin-top: 14rem;
+    }
+ 
+    
+    .courses-develop{
+        margin-top: 8rem;
+        padding: 1rem 0rem;
+    }
+    .service-gif{
+        padding: 0rem 1rem;
+        height:auto;
+        width: 100% !important;
+        margin: 1rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c1-head{
+        font-size: 16px;
+    }
+    .wide-range{
+        font-size: 21px;
+    }
+    .develop-list {
+        display: flex;
+        gap: 0rem;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .range1{
+        height: 10rem;
+        width: 14rem;
+    }
+    .our-mottos{
+        text-align: center;
+    }
+    .teachs{
+         padding: 0rem 1rem;
+        text-align: center;
+        font-size: 22px;
+    }
+    .audio-range{
+        text-align: center;
+    }
+    .our-motto{
+        flex-direction: column;
+    }
+    .learn-cycle-info {
+        padding: 0.5rem 1rem;
+        margin: auto;
+        display: flex;
+        font-size: 1rem;
+        text-align: center;
+        width: 100vw;
+    }
+    .l-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .c1-para{
+        padding: 0rem 1rem;
+        width: 100vw ;
+    }
+    .teach-info{
+        padding: 0rem 1rem;
+        width:100vw;
+        margin: auto;
+        text-align: center;
+    }
+    .learning-cycle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Servicelearn-cc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .courses-list{
+       
+        width:100vw;
+    }
+
+    .service-c4{
+        padding: 0rem 1rem;
+    }
+    .service-c4 iframe{
+        border-radius: 0.5rem;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .c1-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .info-c1{
+        display: flex;
+        flex-direction: column;
+    }
+  
+   
+}
+@media (min-width :1024px) and (max-width:1370px) {
+    .service-c2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .first-range{
+        /* flex-direction: column; */
+        gap: 0rem;
+    }
+    .develop-list{
+        text-align: start;
+        display: flex;
+        gap: 6rem;
+    }
+    .c1-para{
+        font-size: 1.5rem;
+    }
+    .service-v{
+        height: 25rem !important;
+    }
+    .l-cycle{
+        flex-direction: column;
+    }
+    .service-cycle{
+        text-align: center;
+    }
+    .c-develop{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }.service-c3{
+        margin-top: -2rem;
+    }
+    .range1{
+        height: 10rem;
+    }
+    .our-mottos{
+        text-align: center;
+    }
+    .our-motto{
+        display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    }
+    .teachs{
+        text-align: center;
+    }
+    .service-c5{
+        text-align: center;
+    }
+    .learn-cycle-info{
+        font-size: 1.5rem;
+    }
+    .teach-info{
+        font-size: 1.5rem;
+    }
+    .courses-list{
+        font-size: 1.3rem;
+        font-weight: 400;
+    
+    }
+}

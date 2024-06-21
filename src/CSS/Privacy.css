@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+html, body{
+  height: 100%;
+  width: 100%; 
+}
+
+.maindiv{
+    margin-top: 4rem;
+}
+
+.policy{
+    background-image: url(../Components/Images/back6.png);
+    background-repeat: no-repeat;
+    height: 20rem;
+    background-position-y: -7rem;
+    background-size: cover;
+    /* background-blend-mode: darken;
+    background-color:rgb(58, 67, 73); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brainy-policy h1{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.brainy-policy p{
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+
+.itext h2{
+    color: rgb(31, 30, 30);
+    font-size: 2rem;
+}
+.itext span{
+    color: rgb(31, 30, 30);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+}
+.submaindiv{
+    padding: 4.5rem!important;
+}
+
+.tx{
+    color: rgb(106, 183, 222);
+}
+.subheading p{
+    width:89dvw;
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+.mheading h2{
+    margin-top: -2rem;
+    font-size: 1.2rem;
+   
+}
+.subheading h2{
+    font-size: 1rem;
+ 
+    margin-top: 1rem; 
+    font-weight: 750;
+}
+.point h2{
+    font-size: 1rem;
+    
+    margin-top: 1rem; 
+    font-weight: 750;
+}
+.point p{
+    width:89dvw;
+   
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+#gap h2{
+    margin-top: 2.5rem;
+}
+#stext p{
+    margin-left: 4rem;
+    width:55dvw;
+   
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+.subheadings p{
+    width:91dvw !important;
+   
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+    margin-left:2rem ;
+}
+.subheadings2{
+    display: flex;
+    justify-content: start;
+
+}
+.one span{
+    font-size: 2rem !important;
+    display: flex;
+    margin: auto;
+    color: #6a6868;
+    margin: auto;
+    text-align: center;
+    padding-top: .7rem !important;
+}
+#subhead span{
+    margin-left: 3rem !important ;
+}
+.subheading1{
+    
+    display: flex;
+    justify-content: start;
+    
+
+}
+#numbers{
+    margin-top: 1rem;
+    /* margin-left: 1.3rem; */
+}
+#number{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+#number1{
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+}
+#num1{
+    margin-top: 1rem;
+}
+.text p{
+    width:89dvw;
+   
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+.textt1 p{
+    width:84dvw;
+   
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+.texttb1{
+    width:79dvw;
+   
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+.texts p{
+    font-weight: 550;
+    font-size: 1.1rem;
+   
+    margin-top: 1.3rem;
+}
+.texte h2{
+    margin-left: 2rem;
+    font-size: 1rem;
+   
+    margin-top: 2rem; 
+    font-weight: 750;   
+}
+.texte p{
+    width:88dvw;
+   
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+.texte span{
+    color: rgb(106, 183, 222);
+}
+.text1 p{
+    width:83dvw;
+    
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #6a6868;
+    line-height: 27px;
+    letter-spacing: .3px;
+}
+.one p{
+    color: #4b4a4a;
+}
+#seriz p{
+    margin-left: 2rem;
+    width:0dvw;
+   
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+
+
+@media (min-width :250px) and (max-width:349px) { 
+    .maindiv{
+        margin-top: 3rem;
+    }
+    
+    .policy{
+        background-image: url(../Components/Images/back6.png);
+        background-repeat: no-repeat;
+        height: 12rem;
+        background-position-y: -1rem;
+        background-size: cover;
+        /* background-blend-mode: darken;
+        background-color:rgb(58, 67, 73); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .brainy-policy h1{
+        color: #fff;
+        font-size: 1.8rem;
+    }
+    
+    .brainy-policy p{
+        text-align: center;
+        margin-top: 0.5rem;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .submaindiv{
+        padding: 2rem 0rem!important
+    }
+   
+    
+    .subheading p{
+        padding: 0rem 1rem;
+        width:100vw;
+        font-size: 14px;
+    }
+    .mheading h2{
+        padding: 0rem 1rem;
+        margin-top: 0rem;
+        font-size: 1.1rem;
+    }
+    .subheading h2{
+        padding: 0rem 1rem;
+        font-size: 14px;
+    }
+
+    .one p {
+        color: #4b4a4a;
+        margin-top: 2rem !important;
+    }
+    .point h2{
+        font-size: 14px;
+    }
+    .point p{
+        width:89dvw;
+        font-size: 14px;
+        
+    }
+    #gap h2{
+        margin-top: 2.5rem;
+    }
+    #stext p{
+        margin-left: 4rem;
+        width:55dvw;
+        font-size: 14px;
+    }
+    .subheadings p{
+        width:91dvw !important;
+        font-size: 14px;
+    }
+    .subheadings2{
+        display: flex;
+        justify-content: center ;
+    }
+    .one span{
+        font-size: 2rem !important;    
+    }
+    #subhead span{
+        margin-left: .5rem !important ;
+    }
+    .subheading1{
+        display: flex;
+        justify-content: start;    
+    }
+    #numbers{
+        margin-top: 1rem;
+    }
+    #number{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    #number1{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    } 
+    #num1{
+        margin-top: 1rem;
+    }
+    .text p{
+        width:89vw;
+        font-size: 14px;
+        padding: 0rem .4rem !important;
+    }
+    .textt1 p{
+        width:88vw !important;
+        font-size: 14px;
+    }
+    .texttb1 p{
+        width:80vw;
+        font-size: 14px;
+    }
+    .texts p{
+        font-size: 1.1rem;
+    }
+    .texte h2{
+        margin-left: 0rem;
+    }
+    .texte p{
+        width:98vw;
+        padding: 0rem 2rem !important;
+    }
+    .text1 p{
+        width:70dvw;
+        font-size: 14px;
+    }
+    
+    #seriz p{
+        margin-left: 1rem;
+        width:0dvw;
+    }
+    
+}
+@media (min-width :349px) and (max-width:499px) { 
+    .maindiv{
+        margin-top: 4rem;
+    }
+    
+    .policy{
+        background-image: url(../Components/Images/back6.png);
+        background-repeat: no-repeat;
+        height: 20rem;
+        background-position-y: -1rem;
+        background-size: cover;
+        /* background-blend-mode: darken;
+        background-color:rgb(58, 67, 73); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+    }
+    
+    .brainy-policy h1{
+        color: #fff;
+        font-size: 2rem;
+    }
+    
+    .brainy-policy p{
+        text-align: center;
+        margin-top: 0.5rem;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+    .submaindiv{
+        padding: 2rem 1rem!important
+    }
+    /* .logo{
+        height: 70vh;
+        width: 113vw;
+    } */
+    .subheading p{
+        width:93dvw;
+        font-size: 14px;
+    }
+    .mheading h2{
+        font-size: 1.1rem;
+    }
+    .subheading h2{
+        font-size: 14px;
+    }
+    .point h2{
+        font-size: 14px;
+    }
+    .point p{
+        width:89dvw;
+        font-size: 14px;
+        
+    }
+    #gap h2{
+        margin-top: 2.5rem;
+    }
+    #stext p{
+        margin-left: 4rem;
+        width:55dvw;
+        font-size: 14px;
+    }
+    .subheadings p{
+        width:91dvw !important;
+        font-size: 14px;
+    }
+    .subheadings2{
+        display: flex;
+        justify-content: start;
+    }
+    .one span{
+        font-size: 2rem !important;    
+    }
+    #subhead span{
+        margin-left: .5rem !important ;
+    }
+    .subheading1{
+        display: flex;
+        justify-content: start;    
+    }
+    #numbers{
+        margin-top: 1rem;
+    }
+    #number{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    #number1{
+        margin-top: 1rem;
+        margin-left: 2.2rem;
+    }
+    #num1{
+        margin-top: 1rem;
+    }
+    .text p{
+        width:85dvw;
+        font-size: 14px;
+    }
+    .textt1 p{
+        width:87dvw;
+        font-size: 14px;
+    }
+    .texttb1 p{
+        width:83dvw;
+        font-size: 14px;
+    }
+    .texts p{
+        font-size: 1.1rem;
+    }
+    .texte h2{
+        margin-left: 2rem;
+    }
+    .texte p{
+        width:94dvw;
+        padding: 0rem 2rem !important;
+    }
+    .text1 p{
+        width:83dvw;
+        font-size: 14px;
+    }
+  
+    
+    #seriz p{
+        margin-left: 1rem;
+        width:0dvw;
+    }
+    
+}
+
+@media (min-width :499px) and (max-width:768px) { 
+    .submaindiv{
+        padding: 2rem 1rem!important
+    }
+    /* .logo{
+        height: 70vh;
+        width: 100vw;
+    } */
+    .subheading p{
+        width:95dvw;
+        font-size: 14px;
+    }
+    .mheading h2{
+        font-size: 1.1rem;
+    }
+    .subheading h2{
+        font-size: 14px;
+    }
+    .point h2{
+        font-size: 14px;
+    }
+    .point p{
+        width:89dvw;
+        font-size: 1px;
+        
+    }
+    #gap h2{
+        margin-top: 2.5rem;
+    }
+    #stext p{
+        margin-left: 4rem;
+        width:55dvw;
+        font-size: 14px;
+    }
+    .subheadings p{
+        width:91dvw !important;
+        font-size: 14px;
+    }
+    .subheadings2{
+        display: flex;
+        justify-content: start;
+    }
+    .one span{
+        font-size: 2rem !important;    
+    }
+    #subhead span{
+        margin-left: .5rem !important ;
+    }
+    .subheading1{
+        display: flex;
+        justify-content: start;    
+    }
+    #numbers{
+        margin-top: 1rem;
+    }
+    #number{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    #number1{
+        margin-top: 1rem;
+        margin-left: 2.2rem;
+    }
+    #num1{
+        margin-top: 1rem;
+    }
+    .text p{
+        width:90dvw;
+        font-size: 14px;
+    }
+    .textt1 p{
+        width:91dvw;
+        font-size: 14px;
+    }
+    .texttb1 p{
+        width:86dvw;
+        font-size: 14px;
+    }
+    .texts p{
+        font-size: 1.1rem;
+    }
+    .texte h2{
+        margin-left: 2rem;
+    }
+    .texte p{
+        width:93dvw;
+        padding: 0rem 2rem !important;
+    }
+    .text1 p{
+        width:88dvw;
+        font-size: 14px;
+    }
+    
+    #seriz p{
+        margin-left: 1rem;
+        width:0dvw;
+    }
+    
+}
+
+@media (min-width :768px) and (max-width:1023px) { 
+    .submaindiv{
+        /* margin: 2rem !important; */
+        padding: 2rem 1rem!important
+    }
+    .logo{
+        height: 70vh;
+        width: 100%;
+    }
+    .subheading p{
+        width:96dvw;
+        font-size: 14px;
+    }
+    .mheading h2{
+        font-size: 1.1rem;
+    }
+    .subheading h2{
+        font-size: 14px;
+    }
+    .point h2{
+        font-size: 14px;
+    }
+    .point p{
+        width:89dvw;
+        font-size: 14px;
+        
+    }
+    #gap h2{
+        margin-top: 2.5rem;
+    }
+    #stext p{
+        margin-left: 4rem;
+        width:55dvw;
+        font-size: 14px;
+    }
+    .subheadings p{
+        width:91dvw !important;
+        font-size: 1px;
+    }
+    .subheadings2{
+        display: flex;
+        justify-content: start;
+    }
+    .one span{
+        font-size: 2rem !important;    
+    }
+    #subhead span{
+        margin-left: .5rem !important ;
+    }
+    .subheading1{
+        display: flex;
+        justify-content: start;    
+    }
+    #numbers{
+        margin-top: 1rem;
+    }
+    #number{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    #number1{
+        margin-top: 1rem;
+        margin-left: 2.2rem;
+    }
+    #num1{
+        margin-top: 1rem;
+    }
+    .text p{
+        width:91dvw;
+        font-size: 14px;
+    }
+    .textt1 p{
+        width:93dvw;
+        font-size: 14px;
+    }
+    .texttb1 p{
+        width:89dvw;
+        font-size: 14px;
+    }
+    .texts p{
+        font-size: 1.1rem;
+    }
+    .texte h2{
+        margin-left: 2rem;
+    }
+    .texte p{
+        width:97dvw;
+        padding: 0rem 2rem !important;
+    }
+    .text1 p{
+        width:91dvw;
+        font-size: 1rem;
+    }
+    
+    #seriz p{
+        margin-left: 1rem;
+        width:0dvw;
+    }
+    
+}

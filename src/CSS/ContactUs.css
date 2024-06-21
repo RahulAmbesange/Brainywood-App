@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Contactroboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact-c1{
+    margin-top: 4.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Components//Images//back3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 100%;
+    font-size: 2.5rem;
+    color: white;
+}
+.map{
+    height: 25rem;
+    width: 100%;
+}
+.contact-c3{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+.get-in{
+    font-size: 2rem;
+}
+.get-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+.get1{
+    height: 20rem;
+    width:20rem;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.6rem solid skyblue;
+}
+.phone-icon{
+    font-size: 3rem;
+    color: skyblue;
+    margin: 1rem;
+}
+.email-icon{
+    font-size: 3rem;
+    color: rgb(180, 42, 166);
+    margin: 1rem;
+}
+.loc-icon{
+    font-size: 3rem;
+    color: rgb(65, 221, 109);
+    margin: 1rem;
+}
+.get-info{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer{
+    font-size: 1.8rem;
+}
+.support{
+    font-size: 1rem;
+    color: rgb(92, 89, 89);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.support2{
+    font-size: 1.1rem;
+    color: rgb(53, 174, 222);
+}
+.contact-c4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 1rem 0rem;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.form-c{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem 2rem;
+    height: auto;
+    width: auto;
+    /* background-color: pink; */
+    flex-direction: column;
+}
+.send{
+    font-size: 2rem;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+.lb-name{
+    font-size: 1.1rem;
+}
+#name{
+    width: 30rem;
+    height: auto;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    border: none;
+    background-color: rgb(245, 243, 243);
+    margin-bottom: 1rem;
+}
+.all-content{
+    display: flex;
+    gap: 2rem;
+}
+#massage{
+    height: 12rem;
+    width: 30rem;
+    border: none;
+    background-color: rgb(245, 243, 243);
+    border-radius: 0.3rem;
+}
+.required{
+    display: flex;
+    flex-direction: column;
+}
+.Contactrobotclass{
+display: flex;
+height: auto;
+padding: 1rem;
+width: auto;
+background-color: rgb(245, 243, 243);
+align-items: center;
+margin-top: 1rem;
+justify-content: center;
+gap: 0.5rem;
+}
+.Contactrecaptcha{
+    height: 3rem;
+    margin-left: 4rem;
+    width: 3rem;
+}
+#checkbox{
+    height: 2rem;
+    width: 2rem;
+}
+#sub-btn{
+    padding: 0.3rem 3rem;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    background-color: orange;
+    color: whitesmoke;
+}
+@media (min-width :769px) and (max-width:1023px) {
+    .get-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-content{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    #sub-btn {
+        margin-bottom: 1rem;
+    }
+    .send {
+        margin-top: -4rem;
+        font-size: 2rem;
+    }
+}
+@media (min-width :499px) and (max-width:769px) {
+    .contact-c1{
+        height: 20rem;
+    }
+    .get1 {
+        height: auto;
+        width: 100%;
+    }
+    .get-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-content{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .support{
+        width: 82vw;
+    }
+    .map{
+        height: 15rem;
+    }
+    #name{
+        width: 27rem;
+    }
+    #massage{
+        width: 27rem;
+    }
+    .form-c{
+        margin-top: 2rem;
+    }
+    #sub-btn {
+        margin-bottom: 1rem;
+    }
+    .send {
+        margin-top: -4rem;
+    }
+    
+}
+@media (min-width :349px) and (max-width:499px) {
+    .contact-c1{
+        margin-top: 3.5rem;
+        height: 15rem;
+    }
+    .get-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-content{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .get1 {
+        height: auto;
+        width: 100%;
+    }
+    .map{
+        height: 13rem;
+    }
+    #name{
+        width: 18rem;
+    }
+    #massage{
+        width: 18rem;
+    }
+    .form-c{
+        margin-top: 2rem;
+    }
+   
+    .support{
+        width: 82vw;
+    }
+    .send{
+        font-size: 1.5rem;
+        margin-top: -4rem;
+    }
+    #sub-btn {
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width :270px) and (max-width:349px) {
+    .contact-c1{
+        margin-top: 3.5rem;
+        height: 10rem;
+    }
+    .get-boxes{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .all-content{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+     
+    }
+    .map{
+        width: 100% !important;
+        height: 10rem;
+    }
+    #name{
+        width: 14rem;
+    }
+    #massage{
+        width: 14rem;
+        height: 7rem;
+    }
+    .form-c{
+        margin-top: 2rem;
+        padding: 1rem 1rem;
+    }
+    .get-in{
+        font-size: 1.5rem;
+    }
+    .contact-c3{
+        padding: 1rem;
+    }
+    .get1{
+        height:auto !important;
+        width:100%;
+    }
+    
+    .support{
+        width: 82vw;
+        
+    }
+    .support2{
+        font-size: 15px;
+    }
+    /* .send-msg{
+        margin-top: 2rem !important;
+    } */
+    .send {
+        font-size: 1.5rem;
+        margin-top: -5rem !important;
+    }
+    .Contactrobot{
+        font-size: 10px;
+    }
+    .Contactrecaptcha {
+        margin-left: 2rem;
+    }
+    #sub-btn {
+        margin-bottom: 1rem;
+    }
+}

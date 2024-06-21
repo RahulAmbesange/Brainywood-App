@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.term-container{
+    margin-top: 4.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Components//Images//back3.jpg");
+    height: 25rem;
+    width: 100%;
+    background-color: beige;
+    color: whitesmoke;
+}
+.term-container b{
+    font-size: 2.5rem;
+}
+.term-container span{
+    font-size: 1.1rem;
+
+}
+.term-p{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+    /* font-size: 17px; */
+    margin: 3rem !important;
+    margin-left: 5rem !important;
+}
+.ul-p{
+    list-style:decimal;
+}
+.ul-p2{
+    list-style: decimal;
+}
+
+.p-1{
+    width: 88vw;
+}
+
+.p-2 {
+    width: 85vw;
+}
+@media (min-width :769px) and (max-width:1024px) {
+    .term-p{
+        margin: 2rem !important;
+        margin-left: 3rem !important;
+    }
+}
+@media (min-width :499px) and (max-width:769px) {
+    .term-p{
+        margin: 1rem !important;
+        margin-left: 2rem !important;
+    }
+    .term-container{
+        margin-top: 3.5rem;
+        height: 20rem;
+    }
+}
+@media (min-width :349px) and (max-width:499px) {
+    .term-p{
+        padding: 0rem 1rem;
+        margin: 1rem !important;
+        margin-left: 0rem !important;
+        width: 100vw !important;
+      
+    }
+    .term-container{
+        margin-top: 3.5rem;
+        height: 15rem;
+       
+    }
+    .ul-p {
+        list-style: decimal;
+        margin-left: -1rem;
+      
+        
+    }
+
+    .term-container b{
+        font-size: 2rem;
+    }
+}
+@media (min-width :270px) and (max-width:349px) {
+    .term-p{
+        margin: 1rem  0rem!important;
+        margin-left: 0rem !important;
+        padding: 0rem 1rem;
+        width: 100vw;
+        font-size: 14px;
+    }
+    .term-container{
+        margin-top: 3.5rem;
+        height: 10rem;
+    }
+    .ul-p {
+        list-style: decimal;
+        margin-left:-1rem ;
+         padding: 0rem 1rem;
+        width: 100vw ;
+        font-size: 14px;
+    }
+
+    .term-container b {
+        
+        font-size: 1.5rem;
+    }
+
+    
+}

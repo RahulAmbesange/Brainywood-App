@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imt-container{
+    margin-top: 4rem;
+    height: 30rem;
+    width: 100%;
+    background-color: pink;
+    height: 25rem;
+    width: 100%;
+    background-image: url("../Components/Images/back3.jpg");
+    background-position-y: 0rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.imt-head{
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+.imt-info1{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.text-slider{
+    height: auto;
+    width: auto;
+    background-color: rgb(210, 219, 194);
+    border-radius: 5rem;
+    margin: 0rem 3rem;
+    display: flex;
+}
+.pin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1.5rem;
+    height: auto;
+    width: 6rem;
+    /* background-color: black; */
+}
+.it-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    /* background-color: blanchedalmond; */
+}
+.hr-section{
+    height: 0rem;
+    margin: 1rem 3rem;
+    /* width: 100%; */
+}
+.imt-info{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    flex-direction: column;
+    margin: 1.5rem 3rem;
+    font-size: 1.1rem
+}
+.text1-s{
+    font-size: 1.1rem;
+}
+.imt-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.nav-link{
+    padding: 0.5rem 4rem !important;
+    border-radius: 1rem !important;
+    color: black;
+    height: auto !important;
+    width: auto !important;
+    font-size: 1.2rem;
+    background:none!important;
+    box-shadow: 0px 0px 5px 0px rgb(99, 97, 97);
+    border: none !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    padding: 0.5rem 4rem !important;
+    border-radius: 1rem !important;
+    color: orangered;
+    height: auto !important;
+    width: auto !important;
+    font-size: 1.2rem;
+    background-color: rgb(242, 218, 154) !important;
+    border: none !important;
+
+}
+.imt-sec{
+    gap: 10rem;
+    margin-bottom: 3rem !important;
+    display: flex;
+}
+.imt-text{
+    font-size: 1rem;
+    color: rgb(79, 78, 78);
+    padding-top: 5rem !important;
+}
+@media (min-width :769px) and (max-width:1024px) {
+    .imt-info{
+        text-align: center !important;
+    width: 474px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0rem;
+    margin: auto !important;
+    padding-bottom: 1rem;
+    }
+    .imt-subinfo{
+        text-align: center;
+        width: 600px;
+    }
+
+  
+    .imt1{
+        width: 600px;
+    }
+
+}
+@media (min-width :499px) and (max-width:769px) {
+
+    .imt-head{
+        font-size: 3rem;
+    }
+    .imt-container{
+        margin-top: 3.5rem;
+    }
+    .imt-info{
+        text-align: center !important;
+    width: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0rem;
+    margin: auto !important;
+    padding-bottom: 1rem;
+    }
+    .imt-subinfo{
+        text-align: center;
+        width: 400px;
+    }
+    .imt-sec{
+        gap: 1rem;
+        display: flex;
+    }
+    .imt1{
+        padding: 0rem 1rem;
+        width:100vw;
+    }
+    .imt-info1{
+        padding: 0rem 1rem;
+        width: 100vw !important;
+        font-size: 1.3rem;
+    }
+
+    .text1-s{
+        width: 100vw;
+    }
+
+}
+@media (min-width :349px) and (max-width:499px) {
+    .imt-container{
+        margin-top: 3.5rem;
+        height: 20rem;
+    }
+    .imt-info{
+        text-align: center !important;
+    width: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0rem;
+    margin: auto !important;
+    padding-bottom: 1rem;
+    }
+    .imt-subinfo{
+        text-align: center;
+        width: 340px;
+    }
+
+
+    .it-text {
+        height: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100vw !important;
+    }
+    .imt-sec{
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: -2rem;
+    }
+    .imt1{
+        padding: 0rem 1rem;
+        width:100vw !important;
+    }
+    .imt-info1{
+        padding: 0rem 1rem;
+        width: 100vw !important;
+        font-size: 1.1rem;
+    }
+    .nav-link{
+        padding: 0.5rem 1rem !important;
+        border-radius: 1rem !important;
+        color: black;
+        height: auto !important;
+        width: auto !important;
+        font-size: 1.2rem;
+        background:none!important;
+        box-shadow: 0px 0px 5px 0px rgb(99, 97, 97);
+        border: none !important;
+    }
+
+    .text1-s{
+        width: 100vw;
+    }
+
+}
+@media (min-width :270px) and (max-width:349px) {
+    .imt-container{
+        margin-top: 3.5rem;
+        height: 20rem;
+    }
+    .imt-info{
+    text-align: center !important;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0rem;
+    margin: auto !important;
+    padding-bottom: 1rem;
+  
+    }
+    .imt-b{
+        font-size: 14px;
+    }
+    .imt-subinfo{
+        text-align: center;
+        width: 230px;
+    }
+    .imt-sec{
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: -2rem;
+    }
+    .imt1{
+        padding: 0rem 1rem;
+        width:100vw;
+    }
+    .imt-info1{
+        width: 100vw !important;
+        padding: 0rem 1rem;
+        font-size: 1.1rem;
+    }
+    .imt-head{
+        font-size: 2rem;
+        
+    }
+    .nav-link{
+        padding: 0.5rem 1rem !important;
+    }
+    .text-slider{
+        height: auto;
+        width: auto;
+        background-color: rgb(210, 219, 194);
+        border-radius: 5rem;
+        margin: 0rem 0.5rem;
+        display: flex;
+    }
+    .pin{
+        padding: 0.7rem 0rem;
+    }
+    .hr-section{
+        margin: 1rem;
+    }
+    .pin-emoji{
+    
+        font-size: 1rem;
+    }
+
+}

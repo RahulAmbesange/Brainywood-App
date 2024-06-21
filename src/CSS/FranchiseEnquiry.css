@@ -1,0 +1,4197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* html,
+body {
+    height: 100%;
+    width: 100%;
+} */
+
+.franchise {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+.science-company {
+    display: flex;
+
+}
+
+.franchiselogo {
+    height: 2rem;
+    width: 10rem;
+    background: none !important;
+    margin: 1.5rem 3rem;
+}
+
+.investment h1 {
+    color: #000;
+    font-size: 2.6rem;
+    font-weight: 700;
+
+}
+
+.investment p {
+    font-size: 1.5rem;
+    margin: 2.5rem 0rem 2rem 0rem;
+    color: #000;
+}
+.Award{
+    margin-top: 5rem;
+}
+
+.set {
+    margin: 1.5rem 5.2rem;
+}
+
+.record {
+    background-color: #ff7117;
+    height: 3.2rem;
+    width: 16rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.hr-img {
+    margin-top: 2rem;
+    height: 42rem;
+    width: 42rem;
+}
+
+.business h2 {
+    color: #000;
+    font-weight: 600;
+}
+
+.source {
+    display: flex;
+    gap: 2rem;
+}
+
+.great h5 {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.great {
+    font-size: 1.1rem;
+    width: 15rem;
+}
+
+.text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.brand h5 {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.brand {
+    font-size: 1.1rem;
+    width: 16rem;
+}
+
+.returns h5 {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.returns {
+    font-size: 1.1rem;
+    width: 13rem;
+}
+
+.smart h5 {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.smart {
+    font-size: 1.1rem;
+    width: 17rem !important;
+}
+
+.f-num {
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #003da4;
+    color: #fff;
+}
+
+.number-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.world {
+    display: flex;
+    gap: 4rem;
+    margin-top: 0.5rem;
+}
+
+
+.opportunity {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13rem;
+}
+
+.make-money {
+    height: 40rem;
+    width: 100%;
+    background-color: #003da4;
+    /* margin-top: 4rem; */
+}
+
+.brainy-video {
+    height: 26rem;
+    width: 50rem;
+
+}
+
+
+.want-join h4 {
+    text-align: center;
+    padding: 3rem 0rem !important;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.enquiry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.enquiry iframe{
+    height: 22rem;
+    width: 35rem;
+}
+
+.round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+}
+
+.join-btn {
+    margin-top: -9rem;
+    background-color: #ff7a17;
+    height: 3.2rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+
+.want {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.top-features {
+    padding-top: 2rem;
+    height: auto !important;
+    width: 100% !important;
+    background-color: azure !important;
+}
+
+
+.franchise-plans h2 {
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.franchise-plans p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #000;
+
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.franchise-box {
+    height: 10rem;
+    width: 27rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    display: flex;
+    gap: 1.5rem;
+    padding: 20px 20px 48px 20px;
+}
+
+.dollar {
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.franchise2 {
+    height: 10rem;
+    width: 27rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    display: flex;
+    gap: 1.5rem;
+    padding: 20px 20px 48px 20px;
+}
+
+.goal2 {
+    background-color: #ffc117 !important;
+    box-shadow: 0px 0px 8px 0px #ffc117 !important;
+}
+
+.goal3 {
+    background-color: greenyellow !important;
+    box-shadow: 0px 0px 8px 0px greenyellow !important;
+}
+
+.goal4 {
+    background-color: rgb(206, 60, 58) !important;
+    box-shadow: 0px 0px 6px 0px rgb(206, 60, 58) !important;
+}
+
+
+.goal {
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(70, 117, 220);
+    box-shadow: 0px 0px 8px 0px skyblue;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change {
+    height: 2rem;
+    width: 2rem;
+}
+
+.only h5 {
+    font-size: 1.1rem;
+    color: #000;
+
+}
+
+.only p {
+    font-size: 0.9rem;
+    color: #000;
+    width: 17rem;
+}
+
+.only2 p {
+    font-size: 0.9rem;
+    color: #000;
+    width: 17rem;
+}
+
+.only3 p {
+    font-size: 0.9rem;
+    color: #000;
+    width: 17rem;
+}
+
+.interest h5 {
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.interest p {
+    font-size: 0.9rem;
+    color: #000;
+    width: 17rem;
+}
+
+
+
+
+
+.Testtext span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    font-size: 850;
+    margin-bottom: 0rem;
+}
+
+.testline {
+    width: 40rem !important;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonialimg {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem !important;
+}
+
+.testimg img {
+    height: 18rem;
+    width: 13rem;
+
+}
+
+.rimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.review img {
+    flex: 0 0 30%;
+   
+    border-radius: 8px;
+    border: 1.5px solid black;
+    padding: 2px;
+    height: 10rem;
+    width: 20rem;
+}
+
+.rimg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.review1 img {
+    flex: 0 0 30%;
+    min-width: 200px;
+    border-radius: 8px;
+    border: 1.5px solid black;
+    padding: 2px;
+    height: 8rem;
+    width: 20rem;
+}
+
+.testprisetext {
+    background: #001f55;
+    height: 25rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.prisetext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 2.5rem;
+}
+
+.ptext h2 {
+    font-size: 1.3rem;
+    color: orangered;
+}
+
+.ptext span {
+    font-size: .8rem;
+    color: #e5e7eb;
+}
+
+.testimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.trustimg img {
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    filter: invert(100%);
+    border-radius: 9999px;
+    background: #f0f7ac;
+    padding: .5rem;
+}
+
+.trustimg h2 {
+    font-size: 1.2rem;
+    width: 18dvw;
+    text-align: center;
+    margin-top: 1rem;
+    color: whitesmoke;
+}
+
+.approvedimg img {
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    filter: invert(100%);
+    background: #f0f7ac;
+    border-radius: 9999px;
+    padding: .7rem;
+}
+
+.approvedimg h2 {
+    font-size: 1.2rem;
+    width: 21dvw;
+    text-align: center;
+    margin-top: 1rem;
+    color: whitesmoke;
+}
+
+.testtext span {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 2rem;
+}
+
+.testvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem !important;
+}
+
+.size {
+    height: 27rem;
+    width: 50rem;
+}
+
+.testbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.testbtn button {
+    height: 2.6rem;
+    width: 11.6rem;
+    border: none;
+    border-radius: 14px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    background-color: #ff7a17;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.testbtn button:hover {
+    background-color: #d7630b;
+}
+
+.mainbgcolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background-color: rgb(201, 225, 241);
+    height: 40rem;
+    width: 100%;
+    gap: 5rem;
+}
+
+.bgcolorwh {
+    background-color: #ffffff;
+    height: 37rem;
+    width: 45rem;
+    box-shadow: 1px 3px 5px 5px #bfbfc4;
+    margin-top: 2rem;
+}
+
+.regtext h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.textandimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem !important;
+}
+
+.textandimg img {
+    height: 3rem;
+    width: 3rem;
+    filter: invert(100%);
+    border-radius: 1.2rem;
+    background: lch(46 79.25 282.1);
+    padding: .5rem;
+}
+
+.textandimg span {
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: .9px;
+    width: 22dvw;
+}
+
+#red img {
+    background: lch(64 53.88 240.36);
+}
+
+#blue img {
+    background: lch(63 97.06 56.03);
+}
+
+.threebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.orabtn button {
+    height: 2.1rem;
+    width: 11rem;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(255, 162, 0);
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.graybtn button {
+    height: 2.1rem;
+    width: 11rem;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(122 120 117 / 82%);
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.inputext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.inputext span {
+    font-size: 1rem
+}
+
+
+.num {
+    margin-top: 6px;
+    background: #f3f3f3;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    height: 48px;
+    width: 18rem !important;
+    padding: 0px 12px;
+}
+
+.num1 {
+    margin-top: 2px;
+    background: #f3f3f3;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    height: 48px;
+    width: 100%;
+    padding: 0px 12px;
+}
+
+.inputes {
+    margin: 2rem 3rem;
+}
+
+.submittext button {
+    height: 2.4rem;
+    width: 5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff7a17;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.submittext button:hover {
+    background-color: #d7630b;
+}
+
+.subpersoninfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.personinfo {
+    background: #001f55;
+    height: 470px;
+    width: 100%;
+    margin-top: 6rem !important;
+}
+
+.founderinfo {
+    padding: 0rem 4rem;
+}
+
+.founderinfo h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.authortext {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.personimg img {
+    height: 538.9px;
+    width: 17rem;
+    margin-top: -5.5rem;
+}
+
+.pimg img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.belowline hr {
+    height: 1px;
+    width: 22rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.atext {
+    font-size: .8rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+    width: 15dvw !important;
+}
+
+.btext {
+    font-size: .8rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 1rem;
+    width: 14dvw !important;
+
+}
+.middleimg img {
+    height: 22rem !important;
+    width: 30rem !important;
+}
+.authorsubtext {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: -1rem;
+}
+.Testtext h4{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+
+}
+.companyline {
+    margin: auto !important;
+   width: 70rem;
+}
+.middleline {
+    height: 2.2rem;
+    width: 1px;
+    margin-top: 1.2rem;
+    color: #ffffff;
+}
+
+.pimg span {
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: center;
+    width: 15dvw !important;
+ 
+}
+
+.pimg {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ctext span {
+    font-size: .8rem;
+    color: #ffffff;
+    text-align: center;
+    width: 15dvw !important;
+}
+
+.ctext {
+    margin-top: 1rem !important;
+}
+
+.companyinfo img {
+    height: 1.8rem;
+    width: 6rem;
+    background-color: rgb(246, 241, 241);
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 3px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.companyinfo {
+    padding: 4rem;
+}
+
+.companyinfo h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.companyinfo span {
+    font-size: 12px;
+    color: #ffffff;
+    width: 9dvw !important;
+}
+
+.compbelowline {
+    width: 26rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.vido{
+    height: 30rem !important;
+    width: 30rem !important;
+}
+
+.vidostyle iframe{
+    margin:auto ; 
+    max-width: 600px !important;
+    height: 250px !important;
+    width: 400px !important;
+    display: flex;
+    justify-content: center;
+    
+}
+.news {
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.submain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.n1 {
+    max-width: 207px;
+    background: #f6f4f0;
+    transition: filter 0.2s;
+    margin-bottom: 3rem;
+    padding: 1rem !important;
+    transform: rotate(-6deg);
+}
+
+.n1 span {
+    font-size: 5px;
+}
+
+.n1 h2 {
+    font-size: 14px;
+}
+
+.n1 p {
+    width: 14dvw;
+    font-size: 9px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.n2 {
+    max-width: 207px;
+    background: #f6f4f0;
+    transition: filter 0.2s;
+    padding: 1rem !important;
+    transform: rotate(6deg);
+
+}
+
+.nav-fill .nav-item .nav-link{
+    font-size: 16px !important;
+    border: none;
+    text-decoration: none;
+    color: #000;
+    border-top-left-radius:none;
+    transition: none;
+}
+
+.n2 span {
+    font-size: 5px;
+}
+
+.n2 h2 {
+    font-size: 14px;
+}
+
+.n2 p {
+    width: 14dvw;
+    font-size: 9px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.n1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+.n2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+#imgs img {
+    filter: invert(100%);
+    background: #000;
+    background: none;
+}
+
+.seminar img {
+    height: 60rem;
+    width: 30rem;
+}
+
+.sntext {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3rem;
+}
+.vido{
+    height: 30rem !important;
+    width: 30rem !important;
+}
+@media (min-width :250px) and (max-width:349px) {
+
+    .franchise {
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .science-company {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .most-awarded {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+
+    .franchiselogo {
+        height: 2rem;
+        width: 10rem;
+        background: none !important;
+        margin-top: 4rem;
+       
+    }
+
+    .investment h1 {
+        text-align: center;
+        color: #000;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0rem !important;
+    }
+
+    .investment p {
+        text-align: center;
+        font-size: 19px;
+        margin: 1rem 0rem;
+        color: #000 !important;
+
+    }
+
+    .set {
+        margin: 1.5rem 0rem;
+        margin: auto !important;
+    }
+
+    .record {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff7117;
+        height: 3.2rem;
+        width: 14rem;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .hr-img {
+        margin-top: 0rem;
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .asia-books {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .business h2 {
+        text-align: center;
+        font-size: 1.3rem;
+        color: #000;
+        font-weight: 700 !important;
+        margin-top: -4rem;
+    }
+
+    .source {
+        margin: auto !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 2.5rem;
+    }
+
+    .great h5 {
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .great {
+        font-size: 12px;
+        width: 33dvw;
+        text-align: center;
+    }
+
+    .text-5xl {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .brand h5 {
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .brand {
+        font-size: 12px;
+        width: 39dvw;
+        text-align: center;
+    }
+
+    .returns h5 {
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .returns {
+        font-size: 12px;
+        width: 41dvw !important;
+        text-align: center;
+    }
+
+    .smart h5 {
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .smart {
+        font-size: 12px;
+        width: 42dvw !important;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .f-num {
+        font-weight: bolder;
+        -webkit-text-stroke: 2px #003da4;
+        color: #fff;
+    }
+
+    .number-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .test {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .world {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .opportunity {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .make-money {
+        height: 26rem;
+        width: 100% !important;
+        background-color: #003da4;
+        margin-top: 1rem;
+    }
+
+    .brainy-video {
+        height: 14rem;
+        width: 14rem;
+
+    }
+
+    .want-join h4 {
+        text-align: center;
+        padding: 2rem 0rem !important;
+        font-size: 1.2rem;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .enquiry {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .enquiry iframe{
+        height: 10rem;
+        width: 16rem;
+    }
+
+    .round {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -2rem;
+    }
+
+    .join-btn {
+        background-color: #ff7a17;
+        height: 3.2rem;
+        width: 14rem;
+        margin-top: -6rem !important;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #fff;
+
+    }
+
+    .want {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+
+    .top-features {
+        height: auto !important;
+        width: 100%;
+        background-color: azure !important;
+
+    }
+
+    .franchise-plans h2 {
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+        font-size: 1.4rem;
+    }
+
+    .franchise-plans p {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0rem;
+
+    }
+
+    .franchise-box {
+        height: 10rem;
+        width: 15rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+    }
+
+    .dollar {
+        font-size: 2rem;
+        color: whitesmoke;
+    }
+
+    .franchise2 {
+        height: 12rem !important;
+        width: 15rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+    }
+
+    .goal2 {
+        background-color: #ffc117 !important;
+        box-shadow: 0px 0px 8px 0px #ffc117 !important;
+    }
+
+    .goal3 {
+        background-color: greenyellow !important;
+        box-shadow: 0px 0px 8px 0px greenyellow !important;
+    }
+
+    .goal4 {
+        background-color: rgb(206, 60, 58) !important;
+        box-shadow: 0px 0px 6px 0px rgb(206, 60, 58) !important;
+    }
+
+
+    .goal {
+        height: 3rem;
+        width: 3rem;
+        background-color: rgb(70, 117, 220);
+        box-shadow: 0px 0px 8px 0px skyblue;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .change {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .only h5 {
+        font-size: 18px;
+        color: #000;
+
+    }
+
+    .only p {
+        font-size: 0.8rem !important;
+        color: #000;
+        width: 9rem !important;
+    }
+
+    .interest h5 {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .interest p {
+        font-size: 0.8rem !important;
+        color: #000;
+        width: 9rem !important;
+    }
+    
+    .Testtext span {
+        font-size: 1.8rem;
+        margin-top: .5rem;
+        font-weight: 550;
+        margin-bottom: .5rem;
+    }
+    .htag{
+        display: flex;
+     flex-direction: column;
+    
+    }
+    .testline {
+        width: 15rem !important;
+        margin-bottom: -4rem;
+    }
+
+    .testimonialimg {
+        flex-direction: column;
+        gap: 0rem;
+
+    }
+
+    .testimg img {
+        height: 17rem;
+        width: 12rem;
+        margin-bottom: -2rem;
+
+    }
+
+    .rimg {
+        flex-direction: column;
+    }
+
+    .review img {
+        padding: 2px;
+        height: 7rem;
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+    .rimg1 {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .review1 img {
+        border-radius: 8px;
+        padding: 2px;
+        height: 5rem;
+        width: 13rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .testprisetext {
+        background: #001f55;
+        height: 62rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .prisetext {
+        gap: 2rem;
+        padding-top: 2.5rem;
+        flex-direction: column;
+    }
+
+    .ptext h2 {
+        font-size: 1.3rem;
+        width: 47dvw;
+        text-align: center;
+    }
+
+    .ptext span {
+        font-size: .8rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .testimg {
+        flex-direction: column;
+    }
+
+    .trustimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        border-radius: 9999px;
+        background: #f0f7ac;
+        padding: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .trustimg h2 {
+        font-size: 1rem;
+        width: 81dvw;
+        margin-top: 1rem;
+    }
+
+    .approvedimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        padding: .7rem;
+        margin-bottom: 1rem;
+    }
+
+    .approvedimg h2 {
+        font-size: 1rem;
+        width: 80dvw;
+        margin-top: 1rem;
+    }
+
+    .testtext span {
+        font-size: 1rem;
+        width: 100dvw !important;
+        margin-bottom: 2rem;
+    }
+
+    .testvideo {
+        padding-bottom: 2rem !important;
+    }
+
+    .size {
+        height: 10rem;
+        width: 12rem;
+    }
+
+    .testbtn {
+        padding-bottom: 2rem;
+    }
+
+    .testbtn button {
+        height: 2.6rem;
+        width: 11.6rem;
+        border-radius: 14px;
+        font-size: 1rem;
+    }
+
+    .testbtn button:hover {
+        background-color: #d7630b;
+    }
+
+    .bgcolorbl {
+        margin-top: 41rem !important;
+    }
+
+    .mainbgcolor {
+        padding: 5rem;
+        height: 24rem;
+        width: 100%;
+        gap: 5rem;
+        flex-direction: column;
+    }
+
+    .bgcolorwh {
+        height: 37rem;
+        width: 15rem;
+
+    }
+
+    .regtext h2 {
+        margin-top: -6rem;
+        font-size: 1.3rem;
+    }
+
+    .textandimg {
+        gap: 2rem;
+        margin-top: 2rem !important;
+    }
+
+    .textandimg img {
+        height: 3rem;
+        width: 3rem;
+        filter: invert(100%);
+        border-radius: 1.2rem;
+        background: lch(46 79.25 282.1);
+        padding: .5rem;
+    }
+
+    .textandimg span {
+        font-size: 10px;
+        width: 61dvw;
+    }
+
+    #red img {
+        background: lch(64 53.88 240.36);
+    }
+
+    #blue img {
+        background: lch(63 97.06 56.03);
+    }
+
+    .threebtn {
+        gap: 1rem;
+    }
+
+    .orabtn button {
+        height: 1.8rem;
+        width: 4rem;
+        font-size: .5rem;
+
+    }
+
+    .graybtn button {
+        height: 1.8rem;
+        width: 4rem;
+        font-size: .5rem;
+    }
+
+    .inputext {
+        margin-top: 2rem;
+    }
+
+    .subtext {
+        gap: 2rem;
+    }
+
+    .inputext span {
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+
+    #tx span {
+        font-size: 10px;
+        margin-left: 0rem;
+    }
+
+    .num {
+        margin-top: 6px;
+        border-radius: 5px;
+        height: 29px;
+        width: 6rem !important;
+        padding: 0px 12px;
+        font-size: 12px;
+    }
+
+    .num1 {
+        margin-top: 2px;
+        border-radius: 5px;
+        height: 35px;
+        width: 219px;
+        margin-left: -2.4rem;
+        padding: 0px 12px;
+    }
+
+    .inputes {
+        margin: 2rem 3rem;
+    }
+    .submittext{
+        margin: auto !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .submittext button {
+         height: 2.2rem;
+        width: 5rem;
+        margin-top: 2rem !important;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+
+    .submittext button:hover {
+        background-color: #d7630b;
+    }
+
+    .subpersoninfo {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .personinfo {
+        height: 990px;
+        width: 100%;
+        margin-top: 35rem !important;
+    }
+
+    .founderinfo {
+        padding: 2rem 1rem;
+    }
+
+    .founderinfo h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .personimg img {
+        display: none;
+    }
+
+    .pimg img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .belowline hr {
+        height: 1px;
+        width: 12.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .atext {
+        font-size: .8rem;
+        padding-top: 2rem;
+        width: 15dvw !important;
+    }
+
+    .btext {
+        font-size: .8rem;
+        padding-top: 1rem;
+        width: 43dvw !important;
+        
+    }
+
+    .authorsubtext {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-left: -1rem;
+    }
+
+    .middleline {
+        height: 1.5rem;
+        width: 1px;
+        margin-top: 1.2rem;
+    }
+
+    .pimg span {
+        font-size: 11px;
+        color: #ffffff;
+        text-align: center;
+        width: 41dvw !important;
+        
+    }
+
+    .pimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .ctext span {
+        font-size: .8rem;
+        width: 15dvw !important;
+    }
+
+    .ctext {
+        margin-top: 1rem !important;
+    }
+
+    .companyinfo img {
+        height: 1.8rem;
+        width: 6rem;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 3px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .companyinfo {
+        padding: 0rem 2rem;
+    }
+
+    .companyinfo h2 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .companyinfo span {
+        font-size: 12px;
+        width: 9dvw !important;
+    }
+
+    .compbelowline {
+        width: 13rem;
+        margin-bottom: 1rem;
+    }
+
+    .news {
+        margin-top: -1rem;
+        gap: 2rem;
+    }
+
+    .submain {
+        flex-direction: column;
+    }
+
+    .n1 {
+        max-width: 207px;
+    }
+
+    .n1 span {
+        font-size: 6px;
+    }
+
+    .n1 h2 {
+        font-size: 11px;
+    }
+
+    .n1 p {
+        width: 68dvw;
+        font-size: 10px;
+      }
+    
+
+    .n2 {
+        max-width: 207px;
+    }
+
+    .n2 span {
+        font-size: 7px;
+    }
+
+    .n2 h2 {
+        font-size: 11px;
+    }
+
+    .n2 p {
+        width: 67dvw;
+        font-size: 10px;
+    }
+
+    .middleimg img {
+        height: 12rem !important;
+        width: 15rem !important;
+    }
+
+    .sntext {
+        gap: 1rem;
+    }
+
+    .vido{
+        height: 10rem !important;
+        width: 15rem !important;
+    }
+
+    .vidostyle iframe{
+        margin:auto ; 
+        max-width: 600px !important;
+        height: 120px !important;
+        width: 200px !important;
+        display: flex;
+        justify-content: center;  
+    }
+    .companyline{
+        width: 14rem !important;
+    }
+
+}
+
+@media(min-width:350px) and (max-width:499px) {
+    .companyline{
+       
+        width: 20rem !important;   
+    }
+    .middleimg img {
+        height: 15rem !important;
+        width: 18rem !important;
+    }
+
+    .franchise {
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .science-company {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .most-awarded {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+
+    .franchiselogo {
+        height: 2rem;
+        width: 10rem;
+        background: none !important;
+        margin-top: 3rem;
+       
+    }
+
+    .investment h1 {
+        text-align: center;
+        color: #000;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 0rem !important;
+    }
+
+    .investment p {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 1rem 0rem;
+        color: #000 !important;
+
+    }
+
+    .set {
+        margin: 1.5rem 0rem;
+        margin: auto !important;
+    }
+
+    .record {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff7117;
+        height: 3.2rem;
+        width: 16rem;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .hr-img {
+        margin-top: 0rem;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .asia-books {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .business h2 {
+        text-align: center;
+        font-size: 1.3rem;
+        color: #000;
+        font-weight: 700 !important;
+        margin-top: -4rem;
+    }
+
+    .source {
+        margin: auto !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 1rem;
+    }
+
+    .great h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .great {
+        font-size: 1.1rem;
+        width: 10rem;
+        text-align: center;
+    }
+
+    .text-5xl {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .brand h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .brand {
+        font-size: 1.1rem;
+        width: 11rem;
+        text-align: center;
+    }
+
+    .returns h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .returns {
+        font-size: 1.1rem;
+        width: 10rem !important;
+        text-align: center;
+    }
+
+    .smart h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .smart {
+        font-size: 1.1rem;
+        width: 10rem !important;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .f-num {
+        font-weight: bolder;
+        -webkit-text-stroke: 2px #003da4;
+        color: #fff;
+    }
+
+    .number-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .test {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .world {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .opportunity {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .make-money {
+        height: 33rem;
+        width: 100% !important;
+        background-color: #003da4;
+        margin-top: 3rem;
+    }
+
+    .brainy-video {
+        height: 15rem;
+        width: 20rem;
+
+    }
+
+    .want-join h4 {
+        text-align: center;
+        padding: 2rem 0rem !important;
+        font-size: 1.7rem;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .enquiry {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .enquiry iframe{
+        height: 15rem;
+        width: 22rem;
+    }
+
+    .round {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -2rem;
+    }
+
+    .join-btn {
+        background-color: #ff7a17;
+        height: 3.2rem;
+        width: 15rem;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #fff;
+
+    }
+
+    .want {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+
+    .top-features {
+        height: auto !important;
+        width: 100%;
+        background-color: azure !important;
+
+    }
+
+    .franchise-plans h2 {
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+        font-size: 1.4rem;
+    }
+
+    .franchise-plans p {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0rem;
+
+    }
+
+    .franchise-box {
+        height: 10rem;
+        width: 21rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+    }
+
+    .dollar {
+        font-size: 3rem;
+        color: whitesmoke;
+    }
+
+    .franchise2 {
+        height: 10rem !important;
+        width: 21rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem !important;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+        
+    }
+
+    .goal2 {
+        background-color: #ffc117 !important;
+        box-shadow: 0px 0px 8px 0px #ffc117 !important;
+    }
+
+    .goal3 {
+        background-color: greenyellow !important;
+        box-shadow: 0px 0px 8px 0px greenyellow !important;
+    }
+
+    .goal4 {
+        background-color: rgb(206, 60, 58) !important;
+        box-shadow: 0px 0px 6px 0px rgb(206, 60, 58) !important;
+    }
+
+
+    .goal {
+        height: 4rem;
+        width: 4rem;
+        background-color: rgb(70, 117, 220);
+        box-shadow: 0px 0px 8px 0px skyblue;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .change {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .only h5 {
+        font-size: 1.1rem;
+        color: #000;
+
+    }
+
+    .only p {
+        font-size: 0.9rem;
+        color: #000;
+        width: 11rem;
+    }
+
+    .interest h5 {
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .interest p {
+        font-size: 0.9rem;
+        color: #000;
+        width: 12rem;
+    }
+
+
+    .Testtext span {
+        font-size: 1.8rem;
+        margin-top: .5rem;
+        font-weight: 550;
+        margin-bottom: .5rem;
+    }
+    /* .htags{
+        display: flex !important;
+        flex-direction: row !important;
+    } */
+    /* .htag{
+        display: flex !important;
+        flex-direction: column !important;
+    
+    } */
+    .testline {
+        width: 17rem !important;
+        margin-bottom: -4rem;
+    }
+
+    .testimonialimg {
+        flex-direction: column;
+        gap: 0rem;
+       
+    }
+
+    .testimg img {
+        height: 17rem;
+        width: 12rem;
+        margin-bottom: -2rem;
+
+    }
+
+    .rimg {
+        flex-direction: column;
+    }
+
+    .review img {
+        padding: 2px;
+        height: 7rem;
+        width: 17rem;
+        margin-top: 1rem;
+    }
+
+    .rimg1 {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .review1 img {
+        border-radius: 8px;
+        padding: 2px;
+        height: 5rem;
+        width: 15rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .testprisetext {
+        background: #001f55;
+        height: 62rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .prisetext {
+        gap: 2rem;
+        padding-top: 2.5rem;
+        flex-direction: column;
+    }
+
+    .ptext h2 {
+        font-size: 1.3rem;
+        width: 47dvw;
+        text-align: center;
+    }
+
+    .ptext span {
+        font-size: .8rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .testimg {
+        flex-direction: column;
+    }
+
+    .trustimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        border-radius: 9999px;
+        background: #f0f7ac;
+        padding: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .trustimg h2 {
+        font-size: 1rem;
+        width: 71dvw;
+        margin-top: 1rem;
+    }
+
+    .approvedimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        padding: .7rem;
+        margin-bottom: 1rem;
+    }
+
+    .approvedimg h2 {
+        font-size: 1rem;
+        width: 64dvw;
+        margin-top: 1rem;
+    }
+
+    .testtext span {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .testvideo {
+        padding-bottom: 2rem !important;
+    }
+
+    .size {
+        height: 12rem;
+        width: 20rem;
+    }
+
+    .testbtn {
+        padding-bottom: 2rem;
+    }
+
+    .testbtn button {
+        height: 2.6rem;
+        width: 11.6rem;
+        border-radius: 14px;
+        font-size: 1rem;
+    }
+
+    .testbtn button:hover {
+        background-color: #d7630b;
+    }
+
+    .bgcolorbl {
+        margin-top: 41rem !important;
+    }
+
+    .mainbgcolor {
+        padding: 5rem;
+        height: 24rem;
+        width: 100%;
+        gap: 5rem;
+        flex-direction: column;
+    }
+
+    .bgcolorwh {
+        height: 37rem;
+        width: 20rem;
+
+    }
+
+    .regtext h2 {
+        margin-top: -6rem;
+        font-size: 1.5rem;
+    }
+
+    .textandimg {
+        gap: 2rem;
+        margin-top: 2rem !important;
+    }
+
+    .textandimg img {
+        height: 3rem;
+        width: 3rem;
+        filter: invert(100%);
+        border-radius: 1.2rem;
+        background: lch(46 79.25 282.1);
+        padding: .5rem;
+    }
+
+    .textandimg span {
+        font-size: 12px;
+        width: 70dvw;
+    }
+
+    #red img {
+        background: lch(64 53.88 240.36);
+    }
+
+    #blue img {
+        background: lch(63 97.06 56.03);
+    }
+
+    .threebtn {
+        gap: 1rem;
+    }
+
+    .orabtn button {
+        height: 1.8rem;
+        width: 5.7rem;
+        font-size: 9px;
+
+    }
+
+    .graybtn button {
+        height: 1.8rem;
+        width: 5.7rem;
+        font-size: 9px;
+    }
+
+    .inputext {
+        margin-top: 2rem;
+    }
+
+    .subtext {
+        gap: 2rem;
+    }
+
+    .inputext span {
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+
+    #tx span {
+        font-size: 10px;
+        margin-left: 0rem;
+    }
+
+    .num {
+        margin-top: 6px;
+        border-radius: 5px;
+        height: 29px;
+        width: 8.4rem !important;
+        padding: 0px 12px;
+    }
+
+    .num1 {
+        margin-top: 2px;
+        border-radius: 5px;
+        height: 35px;
+        width: 300px;
+        margin-left: -2.4rem;
+        padding: 0px 12px;
+    }
+
+    .inputes {
+        margin: 2rem 3rem;
+    }
+
+    .submittext button {
+        height: 2.4rem;
+        width: 5rem;
+        margin-top: 2rem;
+        border-radius: 8px;
+        font-size: 1.1rem;
+    }
+
+    .submittext button:hover {
+        background-color: #d7630b;
+    }
+
+    .subpersoninfo {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .personinfo {
+        height: auto;
+        width: 100%;
+        margin-top: 35rem !important;
+    }
+
+    .founderinfo {
+        padding: 2rem;
+    }
+
+    .founderinfo h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .personimg img {
+        display: none;
+    }
+
+    .pimg img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .belowline hr {
+        height: 1px;
+        width: 18.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .atext {
+        font-size: .8rem;
+        padding-top: 2rem;
+        width: 15dvw !important;
+    }
+
+    .btext {
+        font-size: .8rem;
+        padding-top: 1rem;
+        width: 43dvw !important;
+       
+    }
+
+    .authorsubtext {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-left: -1rem;
+    }
+
+    .middleline {
+        height: 1.5rem;
+        width: 2px;
+        margin-top: 1.2rem;
+    }
+
+    .pimg span {
+        font-size: 1rem;
+        color: #ffffff;
+        text-align: center;
+        width: 41dvw !important;
+      
+    }
+
+    .pimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .ctext span {
+        font-size: .8rem;
+        width: 15dvw !important;
+    }
+
+    .ctext {
+        margin-top: 1rem !important;
+    }
+
+    .companyinfo img {
+        height: 1.8rem;
+        width: 6rem;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 3px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .companyinfo {
+        padding: 2rem;
+    }
+
+    .companyinfo h2 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .companyinfo span {
+        font-size: 12px;
+        width: 9dvw !important;
+    }
+
+    .compbelowline {
+        width: 18rem;
+        margin-bottom: 1rem;
+    }
+
+    .news {
+        margin-top: -1rem;
+        gap: 2rem;
+    }
+
+    .submain {
+        flex-direction: column;
+    }
+
+    .n1 {
+        max-width: 250px;
+    }
+
+    .n1 span {
+        font-size: 6px;
+    }
+
+    .n1 h2 {
+        font-size: 16px;
+    }
+
+    .n1 p {
+        width: 50dvw;
+        font-size: 12px;
+    }
+
+    .n2 {
+        max-width: 250px;
+    }
+
+    .n2 span {
+        font-size: 7px;
+    }
+
+    .n2 h2 {
+        font-size: 16px;
+    }
+
+    .n2 p {
+        width: 47dvw;
+        font-size: 12px;
+    }
+    .sntext {
+        gap: 1rem;
+    }
+
+    .vido{
+        height: 10rem !important;
+        width: 15rem !important;
+    }
+
+    .vidostyle iframe{
+        margin:auto ; 
+        max-width: 600px !important;
+        height: 200px !important;
+        width: 300px !important;
+      
+        display: flex;
+        justify-content: center;
+        
+       
+    }
+
+}
+
+
+@media (min-width :499px) and (max-width:768px) {
+
+    .companyline{
+        width: 25rem !important;   
+    }
+    .middleimg img {
+        height: 18rem !important;
+        width: 22rem !important;
+    }
+
+    .franchise {
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .science-company {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .most-awarded {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+
+    .franchiselogo {
+        height: 2rem;
+        width: 10rem;
+        background: none !important;
+        margin-top: 4rem;
+       
+    }
+
+    .investment h1 {
+        text-align: center;
+        color: #000;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 0rem !important;
+    }
+
+    .investment p {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 1rem 0rem;
+        color: #000 !important;
+
+    }
+
+    .set {
+        margin: 1.5rem 0rem;
+        margin: auto !important;
+    }
+
+    .record {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff7117;
+        height: 3.2rem;
+        width: 16rem;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .hr-img {
+        margin-top: 0rem;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .asia-books {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .business h2 {
+        text-align: center;
+        font-size: 1.3rem;
+        color: #000;
+        font-weight: 700 !important;
+        margin-top: -4rem;
+    }
+
+    .source {
+        margin: auto !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 1rem;
+    }
+
+    .great h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .great {
+        font-size: 1.1rem;
+        width: 10rem;
+        text-align: center;
+    }
+
+    .text-5xl {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .brand h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .brand {
+        font-size: 1.1rem;
+        width: 11rem;
+        text-align: center;
+    }
+
+    .returns h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .returns {
+        font-size: 1.1rem;
+        width: 10rem !important;
+        text-align: center;
+    }
+
+    .smart h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .smart {
+        font-size: 1.1rem;
+        width: 10rem !important;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .f-num {
+        font-weight: bolder;
+        -webkit-text-stroke: 2px #003da4;
+        color: #fff;
+    }
+
+    .number-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .test {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .world {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .opportunity {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .make-money {
+        height: 36rem;
+        width: 100% !important;
+        background-color: #003da4;
+        margin-top: 3rem;
+    }
+
+    .brainy-video {
+        height: 15rem;
+        width: 20rem;
+
+    }
+
+    .want-join h4 {
+        text-align: center;
+        padding: 2rem 0rem !important;
+        font-size: 1.7rem;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .enquiry {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .enquiry iframe{
+        height: 20rem;
+        width: 28rem;
+    }
+
+
+    .round {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -2rem;
+    }
+
+    .join-btn {
+        background-color: #ff7a17;
+        height: 3.2rem;
+        width: 15rem;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #fff;
+
+    }
+
+    .want {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+
+    .top-features {
+        height: auto !important;
+        width: 100%;
+        background-color: azure !important;
+
+    }
+
+    .franchise-plans h2 {
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+        font-size: 1.4rem;
+    }
+
+    .franchise-plans p {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .franchise-box {
+        height: 10rem;
+        width: 21rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+    }
+
+    .dollar {
+        font-size: 3rem;
+        color: whitesmoke;
+    }
+
+    .franchise2 {
+        height: 10rem !important;
+        width: 21rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+    }
+
+    .goal2 {
+        background-color: #ffc117 !important;
+        box-shadow: 0px 0px 8px 0px #ffc117 !important;
+    }
+
+    .goal3 {
+        background-color: greenyellow !important;
+        box-shadow: 0px 0px 8px 0px greenyellow !important;
+    }
+
+    .goal4 {
+        background-color: rgb(206, 60, 58) !important;
+        box-shadow: 0px 0px 6px 0px rgb(206, 60, 58) !important;
+    }
+
+
+    .goal {
+        height: 4rem;
+        width: 4rem;
+        background-color: rgb(70, 117, 220);
+        box-shadow: 0px 0px 8px 0px skyblue;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .change {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .only h5 {
+        font-size: 1.1rem;
+        color: #000;
+
+    }
+
+    .only p {
+        font-size: 0.9rem;
+        color: #000;
+        width: 11rem;
+    }
+
+    .interest h5 {
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .interest p {
+        font-size: 0.9rem;
+        color: #000;
+        width: 12rem;
+    }
+    .Testtext span {
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        font-weight: 550;
+        margin-bottom: 1rem;
+    }
+
+    .testline {
+        width: 27rem !important;
+    }
+
+
+
+    .testimg img {
+        height: 9rem;
+        width: 5rem;
+
+    }
+
+   
+    .review img {
+        padding: 2px;
+        height: 6rem;
+        width: 9.5rem !important;
+        min-width: none;
+    }
+
+  
+
+    .review1 img {
+        border-radius: 8px;
+        padding: 2px;
+        height: 5rem;
+        width: 12rem;
+    }
+
+    .testprisetext {
+        background: #001f55;
+        height: 62rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .prisetext {
+        gap: 1.2rem;
+        padding-top: 2.5rem;
+        
+    }
+
+    .ptext h2 {
+        font-size: 1.2rem;
+        width: 13dvw;
+   
+
+    }
+
+    .ptext span {
+        font-size: .8rem;
+        text-align: center !important;
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .testprisetext {
+        background: #001f55;
+        height: 27rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+  
+    .trustimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        border-radius: 9999px;
+        background: #f0f7ac;
+        padding: .5rem;
+    }
+
+    .trustimg h2 {
+        font-size: 1rem;
+        width: 32dvw;
+        margin-top: 1rem;
+    }
+
+    .approvedimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        padding: .7rem;
+    }
+
+    .approvedimg h2 {
+        font-size: 1rem;
+        width: 32dvw;
+        margin-top: 1rem;
+    }
+
+    .testtext span {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .testvideo {
+        padding-bottom: 2rem !important;
+    }
+
+    .size {
+        height: 20rem;
+        width: 35rem;
+    }
+
+    .testbtn {
+        padding-bottom: 2rem;
+    }
+
+    .testbtn button {
+        height: 2.6rem;
+        width: 11.6rem;
+        border-radius: 14px;
+        font-size: 1rem;
+    }
+
+    .testbtn button:hover {
+        background-color: #d7630b;
+    }
+
+    .bgcolorbl {
+        margin-top: 41rem !important;
+    }
+
+    .mainbgcolor {
+        padding: 5rem;
+        height: 24rem;
+        width: 100%;
+        gap: 5rem;
+        flex-direction: column;
+    }
+
+    .bgcolorwh {
+        height: 37rem;
+        width: 26rem;
+
+    }
+
+    .regtext h2 {
+        margin-top: -6rem;
+        font-size: 1.5rem;
+    }
+
+    .textandimg {
+        gap: 2rem;
+        margin-top: 2rem !important;
+    }
+
+    .textandimg img {
+        height: 3rem;
+        width: 3rem;
+        filter: invert(100%);
+        border-radius: 1.2rem;
+        background: lch(46 79.25 282.1);
+        padding: .5rem;
+    }
+
+    .textandimg span {
+        font-size: 14px;
+        width: 61dvw;
+    }
+
+    #red img {
+        background: lch(64 53.88 240.36);
+    }
+
+    #blue img {
+        background: lch(63 97.06 56.03);
+    }
+
+    .threebtn {
+        gap: 1rem;
+    }
+
+    .orabtn button {
+        height: 2.1rem;
+        width: 7.5rem;
+        font-size: .7rem;
+
+    }
+
+    .graybtn button {
+        height: 2.1rem;
+        width: 7.5rem;
+        font-size: .7rem;
+    }
+
+    .inputext {
+        margin-top: 2rem;
+    }
+
+    .subtext {
+        gap: 2rem;
+    }
+
+    .inputext span {
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+
+    #tx span {
+        font-size: 10px;
+        margin-left: 0rem;
+    }
+
+    .num {
+        margin-top: 6px;
+        border-radius: 5px;
+        height: 34px;
+        width: 11rem !important;
+        padding: 0px 12px;
+    }
+
+    .num1 {
+        margin-top: 2px;
+        border-radius: 5px;
+        height: 35px;
+        width: 393px;
+        margin-left: -2.4rem;
+        padding: 0px 12px;
+    }
+
+    .inputes {
+        margin: 2rem 3rem;
+    }
+
+    .submittext button {
+        height: 2.4rem;
+        width: 5rem;
+        margin-top: 2rem;
+        border-radius: 8px;
+        font-size: 1.1rem;
+    }
+
+    .submittext button:hover {
+        background-color: #d7630b;
+    }
+
+    .subpersoninfo {
+        
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .personinfo {
+        height: 470px;
+        width: 100% !important;
+        margin-top: 35rem !important;
+    }
+
+    .founderinfo {
+        padding: 2rem 0rem;
+    }
+
+    .founderinfo h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .personimg img {
+        display: none;
+    }
+
+    .pimg img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .belowline hr {
+        height: 1px;
+        width: 10rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .atext {
+        font-size: 10px;
+        padding-top: 2rem;
+        width: 23dvw !important;
+    }
+
+    .btext {
+        font-size: 10px;
+        padding-top: 1rem;
+        width: 21dvw !important;
+       
+    }
+
+    .authorsubtext {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-left: -1rem;
+    }
+
+    .middleline {
+        height: 2.2rem;
+        width: 1px;
+        margin-top: 1.2rem;
+    }
+
+    .pimg span {
+        font-size: 1rem;
+        color: #ffffff;
+        text-align: center;
+        width: 20dvw !important;
+       
+    }
+
+    .pimg {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .ctext span {
+        font-size: 10px;
+        width: 15dvw !important;
+    }
+
+    .ctext {
+        margin-top: 1rem !important;
+    }
+
+    .companyinfo img {
+        height: 1.8rem;
+        width: 6rem;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 3px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .companyinfo {
+        padding: 2rem 0rem;
+    }
+
+    .companyinfo h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .companyinfo span {
+        font-size: 10px;
+        width: 9dvw !important;
+    }
+
+    .compbelowline {
+        width: 12rem;
+        margin-bottom: 1rem;
+    }
+
+    .news {
+        margin-top: -1rem;
+        gap: 2rem;
+    }
+
+    .submain {
+        flex-direction: column;
+    }
+
+    .n1 {
+        max-width: 307px;
+    }
+
+    .n1 span {
+        font-size: 11px;
+    }
+
+    .n1 h2 {
+        font-size: 19px;
+    }
+
+    .n1 p {
+        width: 52dvw !important;
+        font-size: 12px;
+    }
+
+    .n2 {
+        max-width: 307px;
+    }
+
+    .n2 span {
+        font-size: 11px;
+    }
+
+    .n2 h2 {
+        font-size: 19px;
+    }
+
+    .n2 p {
+        width: 52dvw;
+        font-size: 12px;
+    }
+
+
+    .sntext {
+        gap: 2rem;
+    }
+
+    .vidostyle iframe{
+        margin:auto ; 
+        max-width: 600px !important;
+        height: 280px !important;
+        width: 400px !important;
+    
+        display: flex;
+        justify-content: center;
+        
+      
+    }
+
+}
+
+
+@media (min-width :768px) and (max-width:1023px) {
+
+    .companyline{
+        width: 40rem !important;   
+    }
+    .middleimg img {
+        height: 15rem !important;
+        width: 21rem !important;
+    }
+
+   
+    .franchise {
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .science-company {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem !important;
+       
+    }
+
+    .most-awarded {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0rem;
+    }
+
+    .franchiselogo {
+        height: 2rem;
+        width: 10rem;
+        background: none !important;
+        margin-top: 4rem;
+        
+    }
+
+    .investment h1 {
+        text-align: center;
+        color: #000;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 0rem !important;
+    }
+
+    .investment p {
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 1rem 0rem;
+        color: #000 !important;
+
+    }
+
+    .set {
+        margin: 1.5rem 0rem;
+        margin: auto !important;
+    }
+
+    .record {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff7117;
+        height: 3.2rem;
+        width: 16rem;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .hr-img {
+        margin-top: 0rem;
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .asia-books {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .business h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #000;
+        font-weight: 700 !important;
+        margin-top: -4rem;
+    }
+
+    .source {
+        margin: auto !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 1rem;
+    }
+
+    .great h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .great {
+        font-size: 1.1rem;
+        width: 10rem;
+        text-align: center;
+    }
+
+    .text-5xl {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .brand h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .brand {
+        font-size: 1.1rem;
+        width: 11rem;
+        text-align: center;
+    }
+
+    .returns h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .returns {
+        font-size: 1.1rem;
+        width: 10rem !important;
+        text-align: center;
+    }
+
+    .smart h5 {
+        color: #000;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .smart {
+        font-size: 1.1rem;
+        width: 10rem !important;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .f-num {
+        font-weight: bolder;
+        -webkit-text-stroke: 2px #003da4;
+        color: #fff;
+    }
+
+    .number-info {
+        display: flex;
+        
+    }
+
+    .test {
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .world {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .opportunity {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 6rem;
+    }
+
+    .make-money {
+        height: 38rem;
+        width: 100% !important;
+        background-color: #003da4;
+        margin-top: 3rem;
+    }
+
+    .brainy-video {
+        height: 15rem;
+        width: 20rem;
+
+    }
+
+    .want-join h4 {
+        text-align: center;
+        padding: 2rem 0rem !important;
+        font-size: 1.7rem;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .enquiry {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .round {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -2rem;
+    }
+
+    .join-btn {
+        background-color: #ff7a17;
+        height: 3.2rem;
+        width: 15rem;
+        border-radius: 1rem;
+        border: none;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #fff;
+
+    }
+
+    .want {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+
+    .top-features {
+        height: auto !important;
+        width: 100%;
+        background-color: azure !important;
+
+    }
+
+    .franchise-plans h2 {
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+        font-size: 1.4rem;
+    }
+
+    .franchise-plans p {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
+    .franchise-box {
+        height: 10rem;
+        width: 21rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+    }
+
+    .dollar {
+        font-size: 3rem;
+        color: whitesmoke;
+    }
+
+    .franchise2 {
+        height: 10rem !important;
+        width: 21rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        display: flex;
+        gap: 1.5rem;
+        padding: 20px 20px 48px 20px;
+    }
+
+    .goal2 {
+        background-color: #ffc117 !important;
+        box-shadow: 0px 0px 8px 0px #ffc117 !important;
+    }
+
+    .goal3 {
+        background-color: greenyellow !important;
+        box-shadow: 0px 0px 8px 0px greenyellow !important;
+    }
+
+    .goal4 {
+        background-color: rgb(206, 60, 58) !important;
+        box-shadow: 0px 0px 6px 0px rgb(206, 60, 58) !important;
+    }
+
+
+    .goal {
+        height: 4rem;
+        width: 4rem;
+        background-color: rgb(70, 117, 220);
+        box-shadow: 0px 0px 8px 0px skyblue;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .change {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .only h5 {
+        font-size: 1.1rem;
+        color: #000;
+
+    }
+
+    .only p {
+        font-size: 0.9rem;
+        color: #000;
+        width: 11rem;
+    }
+
+    .interest h5 {
+        font-size: 1.1rem;
+        color: #000;
+    }
+
+    .interest p {
+        font-size: 0.9rem;
+        color: #000;
+        width: 12rem;
+    }
+
+   
+   
+   
+    .Testtext span {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        font-weight: 550;
+        margin-bottom: 1rem;
+    }
+
+    .testline {
+        width: 47rem !important;
+    }
+
+   
+    .testimg img {
+        height: 16rem;
+        width: 9rem;
+
+    }
+
+   
+
+    .review img {
+        padding: 2px;
+        height: 9rem;
+        width: 14rem;
+    }
+
+   
+
+    .review1 img {
+        border-radius: 8px;
+        padding: 2px;
+        height: 6rem;
+        width: 15rem;
+
+    }
+
+    .testprisetext {
+        background: #001f55;
+        height: 62rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .prisetext {
+        gap: 1.2rem;
+        padding-top: 2.5rem;
+       
+    }
+
+    .ptext h2 {
+        font-size: 1.3rem;
+        width: 14dvw;
+       
+
+    }
+
+    .ptext span {
+        font-size: .8rem;
+        text-align: center !important;
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .testprisetext {
+        background: #001f55;
+        height: 23rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+   
+
+    .trustimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        border-radius: 9999px;
+        background: #f0f7ac;
+        padding: .5rem;
+    }
+
+    .trustimg h2 {
+        font-size: 1rem;
+        width: 21dvw;
+        margin-top: 1rem;
+    }
+
+    .approvedimg img {
+        height: 7rem;
+        width: 7rem;
+        filter: invert(100%);
+        padding: .7rem;
+    }
+
+    .approvedimg h2 {
+        font-size: 1rem;
+        width: 22dvw;
+        margin-top: 1rem;
+    }
+
+    .testtext span {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .testvideo {
+        padding-bottom: 2rem !important;
+    }
+
+    .size {
+        height: 20rem;
+        width: 35rem;
+    }
+
+    .testbtn {
+        padding-bottom: 2rem;
+    }
+
+    .testbtn button {
+        height: 2.6rem;
+        width: 11.6rem;
+        border-radius: 14px;
+        font-size: 1rem;
+    }
+
+    .testbtn button:hover {
+        background-color: #d7630b;
+    }
+
+    .bgcolorbl {
+        margin-top: 3rem !important;
+    }
+
+    .mainbgcolor {
+        padding: 5rem;
+        height: 39rem;
+        width: 100%;
+        gap: 5rem;
+        
+    }
+
+    .bgcolorwh {
+        height: 37rem;
+        width: 26rem;
+        margin-top: 1rem;
+
+    }
+
+    .regtext h2 {
+        margin-top: -6rem;
+        font-size: 1.8rem;
+    }
+
+    .textandimg {
+        gap: 2rem;
+        margin-top: 2rem !important;
+    }
+
+    .textandimg img {
+        height: 3rem;
+        width: 3rem;
+        filter: invert(100%);
+        border-radius: 1.2rem;
+        background: lch(46 79.25 282.1);
+        padding: .5rem;
+    }
+
+    .textandimg span {
+        font-size: 13px;
+        width: 27dvw;
+    }
+
+    #red img {
+        background: lch(64 53.88 240.36);
+    }
+
+    #blue img {
+        background: lch(63 97.06 56.03);
+    }
+
+    .threebtn {
+        gap: 1rem;
+    }
+
+    .orabtn button {
+        height: 2.1rem;
+        width: 7.5rem;
+        font-size: .7rem;
+
+    }
+
+    .graybtn button {
+        height: 2.1rem;
+        width: 7.5rem;
+        font-size: .7rem;
+    }
+
+    .inputext {
+        margin-top: 2rem;
+    }
+
+    .subtext {
+        gap: 2rem;
+    }
+
+    .inputext span {
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+
+    #tx span {
+        font-size: 10px;
+        margin-left: 0rem;
+    }
+
+    .num {
+        margin-top: 6px;
+        border-radius: 5px;
+        height: 34px;
+        width: 11rem !important;
+        padding: 0px 12px;
+    }
+
+    .num1 {
+        margin-top: 2px;
+        border-radius: 5px;
+        height: 35px;
+        width: 393px;
+        margin-left: -2.4rem;
+        padding: 0px 12px;
+    }
+
+    .inputes {
+        margin: 2rem 3rem;
+    }
+
+    .submittext button {
+        height: 2.4rem;
+        width: 5rem;
+        margin-top: 2rem;
+        border-radius: 8px;
+        font-size: 1.1rem;
+    }
+
+    .submittext button:hover {
+        background-color: #d7630b;
+    }
+
+    .subpersoninfo {
+       
+        gap: 0rem;
+    }
+
+    .personinfo {
+        height: 400px;
+        width: 100%;
+        margin-top: 3rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .founderinfo {
+        padding: 2rem;
+    }
+
+    .founderinfo h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .personimg img {
+        display: none;
+    }
+
+    .pimg img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .belowline hr {
+        height: 1px;
+        width: 14rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .atext {
+        font-size: .8rem;
+        padding-top: 2rem;
+        width: 23dvw !important;
+    }
+
+    .btext {
+        font-size: .8rem;
+        padding-top: 1rem;
+        width: 18dvw !important;
+        
+    }
+
+    .authorsubtext {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-left: -1rem;
+    }
+
+    .middleline {
+        height: 2.2rem;
+        width: 1px;
+        margin-top: 1.2rem;
+    }
+
+    .pimg span {
+        font-size: 1rem;
+        color: #ffffff;
+        text-align: center;
+        width: 18dvw !important;
+      
+    }
+
+    .pimg {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .ctext span {
+        font-size: .8rem;
+        width: 15dvw !important;
+    }
+
+    .ctext {
+        margin-top: 1rem !important;
+    }
+
+    .companyinfo img {
+        height: 1.8rem;
+        width: 6rem;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 3px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .companyinfo {
+        padding: 2rem;
+    }
+
+    .companyinfo h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .companyinfo span {
+        font-size: 12px;
+        width: 9dvw !important;
+    }
+
+    .compbelowline {
+        width: 17rem;
+        margin-bottom: 1rem;
+    }
+
+
+.news {
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.submain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.n1 {
+    max-width: 250px !important;
+    background: #f6f4f0;
+    transition: filter 0.2s;
+    margin-bottom: 3rem;
+    padding: 1rem !important;
+    transform: rotate(-6deg);
+}
+
+.n1 span {
+    font-size: 7px !important;
+}
+
+.n1 h2 {
+    font-size: 14px !important;
+}
+
+.n1 p {
+    width: 24dvw !important;
+    font-size: 10px !important;
+    line-height: 19px;
+    margin-top: 5px;
+}
+
+.n2 {
+    max-width: 250px !important;
+    background: #f6f4f0;
+    transition: filter 0.2s;
+    padding: 1rem !important;
+    transform: rotate(6deg);
+
+}
+
+.n2 span {
+    font-size: 8px !important;
+}
+
+.n2 h2 {
+    font-size: 12px !important;
+}
+
+.n2 p {
+    width: 24dvw !important;
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.n1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+.n2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+#imgs img {
+    filter: invert(100%);
+    background: #000;
+    background: none;
+}
+
+.seminar img {
+    height: 60rem;
+    width: 30rem;
+}
+.sntext {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3rem;
+}
+
+.news {
+    margin-top: -1rem;
+    gap: 2rem;
+}
+
+
+.hedtext {
+    text-decoration: none;
+}
+.nav-fill .nav-item .nav-link {
+    font-size: 14px !important;
+    border: none;
+    text-decoration: none;
+    color: #000;
+    border-top-left-radius: none;
+    transition: none;
+}
+
+.button {
+    line-height: 0;
+}
+
+.vido {
+    margin-top: 2rem !important;
+}
+
+.nav-fill .nav-item .nav-link:hover {
+    font-weight: 550 !important;
+    
+}
+.vidostyle iframe{
+    margin:auto ; 
+    max-width: 600px !important;
+    height: 300px !important;
+    width: 450px !important;
+    display: flex;
+    justify-content: center;    
+}
+
+}

@@ -1,0 +1,424 @@
+#Devicesrc {
+    width: 13rem;
+    height: 3em;
+}
+.footer{
+    padding: 3rem;
+    /* display: flex; */
+    background-color: rgb(10, 10, 24);
+}
+.maincontainer{
+    display: flex;
+    gap: 9rem;
+}
+.firstcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    gap: 0rem;
+
+ 
+}
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+.thirdContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+.fourthContainer{
+    display: flex;
+    flex-direction: column;
+}
+.ftdata {
+    font-size: 0.7rem;
+    margin-top: -1.2rem;
+}
+.SC {
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+}
+.FC {
+    width: 5rem;
+    height: 3rem;
+}
+.linc{
+    width: 3rem;
+}
+.socialcontainer{
+    display: flex;
+    gap: 1rem;
+}
+#icon{
+    font-size: 2rem;
+    color: rgb(206, 30, 30);
+    background-color:none;
+    border-radius: 50%;  
+}
+.fourthContainer h2{
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+.fourthContainer{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.btnf{
+    width: 12rem;
+    height: 2.7rem;
+    border-radius: 15px;
+    background-color: orangered;
+    font-size: 1.2rem;
+    margin-top: -1.2rem;
+}
+.contus{
+ 
+    width: 12rem;
+    height: 2.7rem;
+    border-radius: 15px;
+    background-color: orangered;
+    font-size: 1.2rem;
+    
+}
+.txtdata{
+    text-align: center;
+}
+.txtdata{
+    background-color: rgb(10, 10, 24);
+    color: #ffffff;
+    
+}
+.hrline{
+    color: #000;
+}
+.MainScClass{
+    display: flex;
+    gap: 9.5rem;
+}
+.firstcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    gap: 3rem;
+    align-items: center;
+}
+.ftdata {
+    color: #fff;
+    font-size: 0.7rem;
+    margin-top: -1.2rem;
+}
+.SC:hover{
+    color: orange;
+}
+
+.contus{
+    border: none;
+}
+
+.btnf{
+    border: none;
+}
+@media screen and (min-width:200px) and (max-width:449px){
+
+    .maincontainer {
+        flex-direction: column;
+        display: flex;
+        gap: 3rem;
+    }
+    .firstcontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem ;
+    }
+    .ftdata {
+        text-align: center;
+    font-size: 16px;
+    width: 80vw;
+        margin-top: -1.2rem;
+    }
+    .footer{
+        padding: 3rem 0.5rem;
+    }
+    .MainScClass{
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: -2rem
+        
+        
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .SC {
+        font-size: 14px;
+        text-align: center;
+    }
+    .secondContainer{
+        gap: 1.5rem;
+        display: flex;
+        cursor: pointer;
+    }
+    .thirdContainer{
+        gap: 18.4px;
+        display: flex;
+        cursor: pointer;
+    }
+    .fourthContainer{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fourthContainer h2 {
+        font-size: 1.5rem;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+    }
+
+    .txtdata {
+        font-size: 0.9rem;
+        background-color: rgb(10, 10, 24);
+        color: #ffffff;
+    }
+
+    .contus {
+        margin: auto !important;
+        width: 12rem;
+        height: 3.2rem;
+        border-radius: 15px;
+        background-color: orangered;
+        font-size: 1.3rem;
+        border:none;
+     
+    }
+  
+
+    .btnf {
+        width: 12rem;
+        height: 3rem;
+        border-radius: 15px;
+        background-color: orangered;
+        font-size: 1.2rem;
+        margin-top: -1.2rem;
+        border: none;
+      
+    }
+
+    #Devicesrc {
+        width: 14.5rem !important;
+        height:3.5rem !important;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width:449px) and (max-width:769px){
+    .maincontainer {
+        flex-direction: column;
+        display: flex;
+        gap: 3rem;
+    }
+    .MainScClass {
+        justify-content: center;
+        display: flex;
+        gap: 8.5rem;
+    }
+    .ftdata {
+        color: #fff;
+        font-size: 1rem;
+        margin-top: -1.2rem;
+        text-align: center;
+    }
+    .secondContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+   
+    }
+    .fourthContainer {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        text-align: center;
+        align-items: center;
+        font-size: 1.2rem;
+       
+    }
+    .thirdContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-decoration: none;
+        color: #ffffff;
+      
+    }
+
+
+    .fourthContainer h2 {
+        font-size: 1.8rem;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+    }
+
+    .txtdata {
+        font-size: 0.9rem;
+        background-color: rgb(10, 10, 24);
+        color: #ffffff;
+    }
+
+    .contus {
+        margin: auto !important;
+        width: 13rem;
+        height: 3.2rem;
+        border-radius: 15px;
+        background-color: orangered;
+        font-size: 1.3rem;
+        border:none;
+       
+    }
+
+    .btnf {
+        width: 12rem;
+        height: 3rem;
+        border-radius: 15px;
+        background-color: orangered;
+        font-size: 1.2rem;
+        margin-top: -1.2rem;
+         border: none;
+      
+    }
+
+    #Devicesrc {
+        width: 14.5rem !important;
+        height:3.5rem !important;
+    }
+
+   
+  
+}
+
+@media screen and (min-width:769px) and (max-width:930px){
+    .ftdata {
+        color: #fff;
+        font-size: 1.5rem;
+        margin-top: -1.2rem;
+        text-align: center;
+    }
+    .maincontainer {
+        flex-direction: column;
+        display: flex;
+        gap: 9rem;
+    }
+    .MainScClass {
+        display: flex;
+        gap: 9.5rem;
+        margin-top: -5rem;
+        justify-content: center;
+    }
+    .secondContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .fourthContainer {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2rem;
+    }
+
+    .fourthContainer h2 {
+        font-size: 1.8rem;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+    }
+
+    .txtdata {
+        font-size: 0.9rem;
+        background-color: rgb(10, 10, 24);
+        color: #ffffff;
+    }
+
+    .contus {
+        margin: auto !important;
+        width: 13rem;
+        height: 3.2rem;
+        border-radius: 15px;
+        background-color: orangered;
+        font-size: 1.3rem;
+        border:none;
+      
+    }
+
+    #Devicesrc {
+        width: 14.5rem !important;
+        height:3.5rem !important;
+    }
+  
+}
+
+@media screen and (min-width:930px) and (max-width:1200px){
+
+    .ftdata {
+        color: #fff;
+        font-size: 1.5rem;
+        margin-top: -1.2rem;
+        text-align: center;
+    }
+    .maincontainer {
+        flex-direction: column;
+        display: flex;
+        gap: 9rem;
+    }
+    .MainScClass {
+        display: flex;
+        gap: 9.5rem;
+        margin-top: -5rem;
+        justify-content: center;
+    }
+    .secondContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .fourthContainer {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2rem;
+    }
+
+
+    
+}
+
+
+
